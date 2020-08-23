@@ -118,6 +118,7 @@ export function ExtractTeamMates(
    // eslint-disable-next-line guard-for-in
    for (const key in teamMates) {
       teamMates[key] = Array.from(new Set<string>(teamMates[key])).sort();
+      if (teamMates[key].length === 0) delete teamMates[key];
    }
    return teamMates;
 }
