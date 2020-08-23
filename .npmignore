@@ -1,0 +1,6 @@
+tsconfig.json
+lib
+dist/test*
+node_modules
+README.md
+.eslintcache

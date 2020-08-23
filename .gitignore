@@ -1,0 +1,9 @@
+package-lock.json
+node_modules/
+dist/
+.vscode/
+.env
+firebase.json
+.eslintcache
+act/
+lib/**/*.html
