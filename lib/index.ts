@@ -174,4 +174,9 @@ export default async function ExtractDriverNamesMates(
    };
 }
 
-export { Drivers, TeamAndDriver, TeamMates } from './results';
+export {
+   Drivers,
+   TeamAndDriver,
+   TeamMates,
+   DriverIdAndNameLink
+} from './results';
