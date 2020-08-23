@@ -32,9 +32,7 @@ async function ProcessSeason(season: number) {
       .find(`${TEAM_DRIVER_HEADER}`)
       .toArray();
    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-   const teamDrivers: any = {
-      season: season
-   };
+   const teamDrivers: any[] = [];
    let teamCache: CheerioElement = teamDriverHeader[0]; // Just init
    for (const teamDriverHead of teamDriverHeader) {
       for (const teamDriver of teamDriverHead.children) {
@@ -57,14 +55,51 @@ async function ProcessSeason(season: number) {
                .split('/career')[0],
             driverName: driver.firstChild.data
          };
-         if (teamDrivers[teamDriverName.team] == null)
-            teamDrivers[teamDriverName.team] = new Set<string>();
-         teamDrivers[teamDriverName.team].add(teamDriverName.driver);
+         teamDrivers.push(teamDriverName);
       }
    }
-   for (const key in teamDrivers)
-      if (key !== 'season') teamDrivers[key] = Array.from(teamDrivers[key]);
-   return teamDrivers;
+   return { season: season, teamDrivers: teamDrivers };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function ExtractTeamsAndDriverNameForASeason(teamAndDrivers: any) {
+   const { season, teamDrivers } = teamAndDrivers;
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   const teamSeasonDrivers: any = {
+      season: season
+   };
+   for (const teamDriver of teamDrivers) {
+      if (teamSeasonDrivers[teamDriver.team] == null)
+         teamSeasonDrivers[teamDriver.team] = new Set<string>();
+      teamSeasonDrivers[teamDriver.team].add(teamDriver.driver);
+   }
+   for (const key in teamSeasonDrivers)
+      if (key !== 'season')
+         teamSeasonDrivers[key] = Array.from(teamSeasonDrivers[key]);
+   return teamSeasonDrivers;
+}
+
+function ExtractTeamsAndDriverNames(teamAndDrivers: unknown[]) {
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   const teamSeasonDrivers: any[] = [];
+   for (const teamAndDriversSeason of teamAndDrivers) {
+      const temp = ExtractTeamsAndDriverNameForASeason(teamAndDriversSeason);
+      teamSeasonDrivers.push(temp);
+   }
+   return teamSeasonDrivers;
+}
+interface Dictionary<T> {
+   [Key: string]: T;
+}
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function ExtractDriverIDAndNamesLink(teamAndDrivers: any[]) {
+   const driverIdAndNameLink: Dictionary<string> = {};
+   for (const { teamDrivers: teamAndDriverSeason } of teamAndDrivers)
+      for (const teamDrivers of teamAndDriverSeason) {
+         driverIdAndNameLink[String(teamDrivers.driver)] =
+            teamDrivers.driverName;
+      }
+   return driverIdAndNameLink;
 }
 
 export async function ProcessSeasons(start: number, end: number) {
@@ -93,8 +128,8 @@ export function ExtractDriversNamesAndIdx(
    return driversNamesAndIdx;
 }
 export function ExtractTeamMates(
-   teamDrivers: Record<string, unknown>[],
-   driversNamesAndIdx: Record<string, unknown>[]
+   teamDrivers: Record<string, never[]>[],
+   driversNamesAndIdx: Record<string, never>[]
 ) {
    // eslint-disable-next-line @typescript-eslint/no-explicit-any
    const teamMates: any = {};
@@ -106,7 +141,7 @@ export function ExtractTeamMates(
    for (const teamDriver of teamDrivers)
       for (const team in teamDriver)
          if (team !== 'season') {
-            const teamMatesNames = teamDriver[team] as [];
+            const teamMatesNames = teamDriver[team];
             const teamMatesIdx = teamMatesNames.map(
                driver => driversNamesAndIdx[driver]
             );
@@ -126,18 +161,17 @@ export default async function ExtractDriverNamesMates(
    start: number,
    end: number
 ) {
-   const teamDrivers = await ProcessSeasons(start, end);
+   const rawData = await ProcessSeasons(start, end);
+   const teamDrivers = ExtractTeamsAndDriverNames(rawData);
+   const driverIdAndNameLink = ExtractDriverIDAndNamesLink(rawData);
    const driversNamesAndIdx = ExtractDriversNamesAndIdx(teamDrivers);
    const teamMates = ExtractTeamMates(teamDrivers, driversNamesAndIdx);
    return {
       teamDrivers: teamDrivers,
+      driverIdAndNameLink: driverIdAndNameLink,
       driversNamesAndIdx: driversNamesAndIdx,
       teamMates: teamMates
    };
 }
 
-export {
-   drivers as Drivers,
-   teamAndDriver as TeamAndDriver,
-   teamMates as TeamMates
-} from './results';
+export { Drivers, TeamAndDriver, TeamMates } from './results';

@@ -19,16 +19,18 @@ async function Run() {
    const {
       driversNamesAndIdx,
       teamDrivers,
-      teamMates
+      teamMates,
+      driverIdAndNameLink
    } = await ExtractDriverNamesMates(SEASONF, SEASONE);
    console.log('Loading And Pre Processing Done');
 
    await WriteFile(`teamAndDriver.json`, teamDrivers);
    await WriteFile(`drivers.json`, driversNamesAndIdx);
    await WriteFile(`teamMates.json`, teamMates);
-   return await writeFile(
+   await WriteFile(`driverIdAndNameLink.json`, driverIdAndNameLink);
+   await writeFile(
       join(RESULTS_DIR, `index.ts`),
-      `import drivers from './drivers.json';\nimport teamAndDriver from './teamAndDriver.json';\nimport teamMates from './teamMates.json';\nexport { drivers, teamAndDriver, teamMates };\n`,
+      `import Drivers from './drivers.json';\nimport TeamAndDriver from './teamAndDriver.json';\nimport DriverIdAndNameLink from './driverIdAndNameLink.json';\nimport TeamMates from './teamMates.json';\nexport { Drivers, TeamAndDriver, TeamMates, DriverIdAndNameLink };\n`,
       'utf8'
    );
    console.log('Results Written');
@@ -39,5 +41,5 @@ Run()
       return console.log('Done', SEASONF, SEASONE);
    })
    .catch(err => {
-      console.error(err, '333');
+      console.error(err);
    });
