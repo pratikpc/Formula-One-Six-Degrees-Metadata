@@ -1,6 +1,6 @@
 {
    "name": "formula1-extract-driver-pairs",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "",
    "main": "./dist/index.js",
    "types": "./dist/index.d.ts",
@@ -17,7 +17,12 @@
       "url": "https://github.com/pratikpc/Formula1-Extract-Driver-Pairs/"
    },
    "homepage": "https://github.com/pratikpc/Formula1-Extract-Driver-Pairs/",
-   "keywords": [],
+   "keywords": [
+      "Formula One",
+      "Formula 1",
+      "FIA",
+      "Parse"
+   ],
    "author": "",
    "license": "MIT",
    "bugs": {
