@@ -4,3 +4,4 @@ dist/test*
 node_modules
 README.md
 .eslintcache
+dist/*.tsbuildinfo

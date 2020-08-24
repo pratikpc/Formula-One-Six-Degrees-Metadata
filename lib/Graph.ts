@@ -4,17 +4,17 @@ export type ObjectType<T> = {
    [key in Index]: T;
 };
 export type GraphType = ObjectType<Index[]>;
-export type Visited = ObjectType<boolean>;
-export type Distance = ObjectType<ObjectType<number>>;
-export type Path = ObjectType<ObjectType<Index>>;
+export type VisitedT = ObjectType<boolean>;
+export type DistanceT = ObjectType<ObjectType<number>>;
+export type PathT = ObjectType<ObjectType<Index>>;
 
 export default class Graph {
    public graph!: GraphType;
-   public visited!: Visited;
+   public visited!: VisitedT;
 
-   public distance: Distance = {};
-   public pathLength: Distance = {};
-   public path: Path = {};
+   public distance: DistanceT = {};
+   public pathLength: DistanceT = {};
+   public path: PathT = {};
 
    public constructor(graph: GraphType) {
       this.graph = graph;
@@ -69,7 +69,7 @@ export default class Graph {
                this.distance[vertice][neighbour] = 1;
                this.path[vertice][neighbour] = neighbour;
             } else {
-               this.distance[vertice][neighbour] = Infinity;
+               this.distance[vertice][neighbour] = Number.POSITIVE_INFINITY;
             }
          }
          this.distance[vertice][vertice] = 0;
@@ -92,7 +92,7 @@ export default class Graph {
       // eslint-disable-next-line guard-for-in
       for (const i in this.graph)
          for (const j in this.graph) {
-            if (this.distance[i][j] === Number.MAX_SAFE_INTEGER)
+            if (this.distance[i][j] === Number.POSITIVE_INFINITY)
                delete this.distance[i][j];
          }
    }

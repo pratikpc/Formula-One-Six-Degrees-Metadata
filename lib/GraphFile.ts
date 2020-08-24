@@ -9,7 +9,7 @@ export default class Graph extends GraphT {
    static async WriteFile(fileName: string, data: unknown) {
       const print =
          typeof data === 'object'
-            ? JSON.stringify(data, null, '\t')
+            ? JSON.stringify(data, null, 3)
             : String(data);
       await writeFile(join(RESULTS_DIR, fileName), print, 'utf8');
    }

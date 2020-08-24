@@ -185,3 +185,12 @@ export {
 } from './results';
 
 export { Graph };
+export type {
+   DistanceT,
+   GraphType,
+   ObjectType,
+   PathT,
+   VisitedT as Visited
+} from './Graph';
+
+export type { DriverLinkNameT, DriversT, TeamAndDriverT } from './types';
