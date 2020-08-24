@@ -1,7 +1,7 @@
 import mkdirp from 'mkdirp';
 
-import { DATA_DIR, RESULTS_DIR, SEASONF, SEASONE } from './env';
-import ExtractDriverNamesMates from '.';
+import { DATA_DIR, RESULTS_DIR, SEASONE, SEASONF } from './env';
+import ExtractDriverNamesMates from './Generator';
 import Graph from './GraphFile';
 
 async function Run() {
