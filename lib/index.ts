@@ -49,14 +49,15 @@ async function ProcessSeason(season: number) {
             // eslint-disable-next-line no-continue
             continue;
 
-         const teamDriverName = {
+         const teamDriverMetadata = {
             team: team.attribs.href.split('/teams/')[1].split('/history')[0],
+            teamName: team.firstChild.data,
             driver: driver.attribs.href
                .split('/drivers/')[1]
                .split('/career')[0],
             driverName: driver.firstChild.data
          };
-         teamDrivers.push(teamDriverName);
+         teamDrivers.push(teamDriverMetadata);
       }
    }
    return { season: season, teamDrivers: teamDrivers };
@@ -92,6 +93,7 @@ function ExtractTeamsAndDriverNames(teamAndDrivers: unknown[]) {
 interface Dictionary<T> {
    [Key: string]: T;
 }
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function ExtractDriverIDAndNamesLink(teamAndDrivers: any[]) {
    const driverIdAndNameLink: Dictionary<string> = {};
@@ -99,6 +101,16 @@ function ExtractDriverIDAndNamesLink(teamAndDrivers: any[]) {
       for (const teamDrivers of teamAndDriverSeason) {
          driverIdAndNameLink[String(teamDrivers.driver)] =
             teamDrivers.driverName;
+      }
+   return driverIdAndNameLink;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function ExtractTeamIDAndNamesLink(teamAndDrivers: any[]) {
+   const driverIdAndNameLink: Dictionary<string> = {};
+   for (const { teamDrivers: teamAndDriverSeason } of teamAndDrivers)
+      for (const teamDrivers of teamAndDriverSeason) {
+         driverIdAndNameLink[String(teamDrivers.team)] = teamDrivers.teamName;
       }
    return driverIdAndNameLink;
 }
@@ -127,6 +139,24 @@ export function ExtractDriversNamesAndIdx(
       driversNamesAndIdx[newKey] = key;
    }
    return driversNamesAndIdx;
+}
+export function ExtractTeamNamesAndDrivers(
+   teamDrivers: Record<string, string[]>[]
+) {
+   const teamsDrivers: { [val: string]: string[] } = {};
+   for (const teamDriver of teamDrivers)
+      for (const team in teamDriver)
+         if (team !== 'season') {
+            if (team in teamsDrivers)
+               teamsDrivers[team].concat(teamDriver[team]);
+            else teamsDrivers[team] = teamDriver[team];
+         }
+
+   for (const team in teamsDrivers) {
+      if (team !== 'season')
+         teamsDrivers[team] = Array.from(new Set(teamsDrivers[team]));
+   }
+   return teamsDrivers;
 }
 export function ExtractTeamMates(
    teamDrivers: Record<string, never[]>[],
@@ -165,13 +195,19 @@ export default async function ExtractDriverNamesMates(
    const rawData = await ProcessSeasons(start, end);
    const teamDrivers = ExtractTeamsAndDriverNames(rawData);
    const driverIdAndNameLink = ExtractDriverIDAndNamesLink(rawData);
+   const teamIdAndNameLink = ExtractTeamIDAndNamesLink(rawData);
    const driversNamesAndIdx = ExtractDriversNamesAndIdx(teamDrivers);
+   const teamNamesAndDrivers = ExtractTeamNamesAndDrivers(teamDrivers);
+
    const teamMates = ExtractTeamMates(teamDrivers, driversNamesAndIdx);
+
    return {
       teamDrivers: teamDrivers,
       driverIdAndNameLink: driverIdAndNameLink,
       driversNamesAndIdx: driversNamesAndIdx,
-      teamMates: teamMates
+      teamMates: teamMates,
+      teamIdAndNameLink: teamIdAndNameLink,
+      teamNamesAndDrivers: teamNamesAndDrivers
    };
 }
 
@@ -181,7 +217,9 @@ export {
    TeamMates,
    DriverIdAndNameLink,
    Distance,
-   Path
+   Path,
+   TeamIdAndNameLink,
+   TeamNamesAndDrivers
 } from './results';
 
 export { Graph };
@@ -193,4 +231,9 @@ export type {
    VisitedT as Visited
 } from './Graph';
 
-export type { DriverLinkNameT, DriversT, TeamAndDriverT } from './types';
+export type {
+   DriverLinkNameT,
+   DriversT,
+   TeamAndDriverT,
+   TeamNameT
+} from './types';

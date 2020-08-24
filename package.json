@@ -10,7 +10,7 @@
       "start": "nodemon --watch dist ./dist/run.js",
       "deploy": "node ./dist/run.js",
       "lint": "eslint --cache --max-warnings=0 --fix lib",
-      "format": "prettier --ignore-path .gitignore --write lib/**/*.ts* *.json"
+      "format": "prettier --ignore-path .gitignore --write lib/**/*.ts* ./*.json"
    },
    "repository": {
       "type": "git",
