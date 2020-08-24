@@ -1,17 +1,9 @@
 import mkdirp from 'mkdirp';
-import { writeFile } from 'fs/promises';
-import { join } from 'path';
 
 import { DATA_DIR, RESULTS_DIR, SEASONF, SEASONE } from './env';
 import ExtractDriverNamesMates from '.';
+import Graph from './GraphFile';
 
-async function WriteFile(fileName: string, data: unknown) {
-   return await writeFile(
-      join(RESULTS_DIR, fileName),
-      JSON.stringify(data, null, '\t'),
-      'utf8'
-   );
-}
 async function Run() {
    await mkdirp(DATA_DIR);
    await mkdirp(RESULTS_DIR);
@@ -22,16 +14,18 @@ async function Run() {
       teamMates,
       driverIdAndNameLink
    } = await ExtractDriverNamesMates(SEASONF, SEASONE);
+
+   const graph = new Graph(teamMates);
+   await graph.AllPairShortestPath({ cache: true });
    console.log('Loading And Pre Processing Done');
 
-   await WriteFile(`teamAndDriver.json`, teamDrivers);
-   await WriteFile(`drivers.json`, driversNamesAndIdx);
-   await WriteFile(`teamMates.json`, teamMates);
-   await WriteFile(`driverIdAndNameLink.json`, driverIdAndNameLink);
-   await writeFile(
-      join(RESULTS_DIR, `index.ts`),
-      `import Drivers from './drivers.json';\nimport TeamAndDriver from './teamAndDriver.json';\nimport DriverIdAndNameLink from './driverIdAndNameLink.json';\nimport TeamMates from './teamMates.json';\nexport { Drivers, TeamAndDriver, TeamMates, DriverIdAndNameLink };\n`,
-      'utf8'
+   await Graph.WriteFile(`teamAndDriver.json`, teamDrivers);
+   await Graph.WriteFile(`drivers.json`, driversNamesAndIdx);
+   await Graph.WriteFile(`teamMates.json`, teamMates);
+   await Graph.WriteFile(`driverIdAndNameLink.json`, driverIdAndNameLink);
+   await Graph.WriteFile(
+      `index.ts`,
+      `import Drivers from './drivers.json';\nimport TeamAndDriver from './teamAndDriver.json';\nimport DriverIdAndNameLink from './driverIdAndNameLink.json';\nimport TeamMates from './teamMates.json';\nimport Distance from './distance.json';\nimport Path from './path.json';\n\nexport { Drivers, TeamAndDriver, TeamMates, DriverIdAndNameLink, Distance, Path };\n`
    );
    console.log('Results Written');
 }

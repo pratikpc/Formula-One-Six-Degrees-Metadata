@@ -12,6 +12,7 @@ import {
    ENTRY_LIST,
    DATA_DIR
 } from './env';
+import Graph from './Graph';
 
 export async function Load(season: number) {
    const fileName = path.join(DATA_DIR, `${season}.html`);
@@ -178,5 +179,9 @@ export {
    Drivers,
    TeamAndDriver,
    TeamMates,
-   DriverIdAndNameLink
+   DriverIdAndNameLink,
+   Distance,
+   Path
 } from './results';
+
+export { Graph };
