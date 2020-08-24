@@ -8,7 +8,23 @@
       "luigi-fagioli",
       "reg-parnell",
       "consalvo-sanesi",
-      "piero-taruffi"
+      "piero-taruffi",
+      "felice-bonetto",
+      "emmanuel-de-graffenried",
+      "paul-pietsch",
+      "bruno-giacomelli",
+      "vittorio-brambilla",
+      "andrea-de-cesaris",
+      "patrick-depailler",
+      "mario-andretti",
+      "mauro-baldi",
+      "riccardo-patrese",
+      "eddie-cheever",
+      "kimi-raikkonen",
+      "mick-schumacher",
+      "callum-ilott",
+      "antonio-giovinazzi",
+      "robert-kubica"
    ],
    "antonio-branca": [
       "toni-branca"
@@ -29,7 +45,8 @@
       "troy-ruttman"
    ],
    "carl-marchese": [
-      "myron-fohr"
+      "myron-fohr",
+      "chuck-stevenson"
    ],
    "charles-pozzi-2": [
       "charles-pozzi",
@@ -43,13 +60,16 @@
       "clemente-biondetti"
    ],
    "cummins-engine-co": [
-      "james-jimmy-jackson"
+      "james-jimmy-jackson",
+      "fred-agabashian"
    ],
    "cuth-harrison-2": [
       "cuth-harrison"
    ],
    "ecurie-belge": [
-      "johnny-claes"
+      "johnny-claes",
+      "paul-frere",
+      "andre-pilette"
    ],
    "ecurie-bleue": [
       "harry-schell",
@@ -57,11 +77,36 @@
    ],
    "ecurie-rosier": [
       "louis-rosier",
-      "henri-louveau"
+      "henri-louveau",
+      "louis-chiron",
+      "jose-froilan-gonzalez",
+      "maurice-trintignant",
+      "robert-manzon"
    ],
    "gordini": [
       "maurice-trintignant",
-      "robert-manzon"
+      "robert-manzon",
+      "andre-simon",
+      "aldo-gordini",
+      "jean-behra",
+      "johnny-claes",
+      "prince-bira",
+      "harry-schell",
+      "roberto-mieres",
+      "carlos-menditeguy",
+      "pablo-birger",
+      "fred-wacker",
+      "clemar-bucci",
+      "andre-pilette",
+      "elie-bayol",
+      "roger-loyer",
+      "jacques-pollet",
+      "paul-frere",
+      "nano-da-silva-ramos",
+      "jean-lucas",
+      "mike-sparken",
+      "jesus-ricardo-iglesias",
+      "andre-milhoux"
    ],
    "ervin-wolfe": [
       "joie-chitwood",
@@ -71,7 +116,10 @@
       "geoff-crossley"
    ],
    "grancor-auto-specialists": [
-      "pat-flaherty"
+      "pat-flaherty",
+      "fred-agabashian",
+      "jim-rathmann",
+      "paul-russo"
    ],
    "guy-mairesse-2": [
       "guy-mairesse"
@@ -80,17 +128,26 @@
       "harry-schell"
    ],
    "howard-keck-co": [
-      "mauri-rose"
+      "mauri-rose",
+      "bill-vukovich"
    ],
    "indianapolis-race-cars-inc": [
       "fred-agabashian",
       "henry-banks"
    ],
    "j-c-agajanian": [
-      "walt-faulkner"
+      "walt-faulkner",
+      "troy-ruttman",
+      "chuck-stevenson",
+      "gene-hartley",
+      "tony-bettenhausen",
+      "duane-carter",
+      "johnnie-parsons",
+      "lloyd-ruby"
    ],
    "jack-b-hinkle": [
-      "jack-mcgrath"
+      "jack-mcgrath",
+      "manny-ayulo"
    ],
    "joe-fry-2": [
       "brian-shawe-taylor",
@@ -116,32 +173,81 @@
       "tony-bettenhausen"
    ],
    "louis-rassey": [
-      "bill-schindler"
+      "bill-schindler",
+      "carl-forberg"
    ],
    "ludson-d-morris": [
-      "jerry-hoyt"
+      "jerry-hoyt",
+      "cliff-griffith",
+      "bob-scott"
    ],
    "m-a-walker": [
-      "cecil-green"
+      "cecil-green",
+      "andy-linden",
+      "duke-dinsmore",
+      "rodger-ward"
    ],
    "m-pete-wales": [
-      "johnny-mcdowell"
+      "johnny-mcdowell",
+      "ed-elisian"
    ],
    "milt-marion": [
       "sam-hanks"
    ],
    "murrell-belanger": [
-      "duane-carter"
+      "duane-carter",
+      "lee-wallard",
+      "cal-niday",
+      "jerry-hoyt",
+      "art-cross",
+      "tony-bettenhausen"
    ],
    "norm-olson": [
       "jackie-john-holmes"
    ],
    "maserati": [
       "franco-rol",
-      "louis-chiron"
+      "louis-chiron",
+      "felice-bonetto",
+      "jose-froilan-gonzalez",
+      "chico-landi",
+      "johnny-claes",
+      "onofre-marimon",
+      "oscar-galvez",
+      "juan-manuel-fangio",
+      "emmanuel-de-graffenried",
+      "hermann-lang",
+      "luigi-musso",
+      "sergio-mantovani",
+      "harry-schell",
+      "roberto-mieres",
+      "prince-bira",
+      "stirling-moss",
+      "paco-godia",
+      "louis-rosier",
+      "alberto-ascari",
+      "luigi-villoresi",
+      "andre-simon",
+      "jean-behra",
+      "clemar-bucci",
+      "horace-gould",
+      "peter-collins",
+      "carlos-menditeguy",
+      "cesare-perdisa",
+      "piero-taruffi",
+      "umberto-maglioli",
+      "gerino-gerini",
+      "mike-hawthorn",
+      "luigi-piotti",
+      "jo-bonnier",
+      "giorgio-scarlatti",
+      "hans-herrmann"
    ],
    "pat-clancy": [
-      "jimmy-davies"
+      "jimmy-davies",
+      "al-herman",
+      "al-keller",
+      "jack-turner"
    ],
    "paul-pietsch-2": [
       "paul-pietsch"
@@ -154,7 +260,8 @@
       "tony-rolt"
    ],
    "peter-whitehead-2": [
-      "peter-whitehead"
+      "peter-whitehead",
+      "graham-whitehead"
    ],
    "philippe-etancelin-2": [
       "philippe-etancelin"
@@ -188,17 +295,103 @@
    ],
    "scuderia-enrico-plate": [
       "prince-bira",
-      "emmanuel-de-graffenried"
+      "emmanuel-de-graffenried",
+      "louis-chiron",
+      "harry-schell",
+      "alberto-crespo"
    ],
    "ferrari": [
       "luigi-villoresi",
       "alberto-ascari",
       "raymond-sommer",
-      "dorino-serafini"
+      "dorino-serafini",
+      "jose-froilan-gonzalez",
+      "piero-taruffi",
+      "peter-whitehead",
+      "nino-farina",
+      "andre-simon",
+      "mike-hawthorn",
+      "umberto-maglioli",
+      "piero-carini",
+      "maurice-trintignant",
+      "robert-manzon",
+      "eugenio-castellotti",
+      "harry-schell",
+      "paul-frere",
+      "juan-manuel-fangio",
+      "peter-collins",
+      "alfonso-de-portago",
+      "luigi-musso",
+      "andre-pilette",
+      "olivier-gendebien",
+      "wolfgang-von-trips",
+      "cesare-perdisa",
+      "phil-hill",
+      "jean-behra",
+      "tony-brooks",
+      "cliff-allison",
+      "dan-gurney",
+      "richie-ginther",
+      "willy-mairesse",
+      "ricardo-rodriguez",
+      "lorenzo-bandini",
+      "giancarlo-baghetti",
+      "john-surtees",
+      "ludovico-scarfiotti",
+      "pedro-rodriguez",
+      "bob-bondurant",
+      "nino-vaccarella",
+      "mike-parkes",
+      "chris-amon",
+      "jonathan-williams",
+      "jacky-ickx",
+      "derek-bell",
+      "andrea-de-adamich",
+      "ernesto-brambilla",
+      "clay-regazzoni",
+      "ignazio-giunti",
+      "mario-andretti",
+      "arturo-merzario",
+      "nanni-galli",
+      "niki-lauda",
+      "carlos-reutemann",
+      "gilles-villeneuve",
+      "jody-scheckter",
+      "didier-pironi",
+      "patrick-tambay",
+      "rene-arnoux",
+      "michele-alboreto",
+      "stefan-johansson",
+      "gerhard-berger",
+      "nigel-mansell",
+      "alain-prost",
+      "gianni-morbidelli",
+      "jean-alesi",
+      "ivan-capelli",
+      "nicola-larini",
+      "michael-schumacher",
+      "eddie-irvine",
+      "mika-salo",
+      "rubens-barrichello",
+      "felipe-massa",
+      "kimi-raikkonen",
+      "giancarlo-fisichella",
+      "luca-badoer",
+      "fernando-alonso",
+      "pedro-de-la-rosa",
+      "sebastian-vettel",
+      "charles-leclerc",
+      "mick-schumacher",
+      "antonio-fuoco"
    ],
    "milano": [
       "felice-bonetto",
-      "franco-comotti"
+      "franco-comotti",
+      "paco-godia",
+      "juan-jover",
+      "onofre-marimon",
+      "chico-landi",
+      "prince-bira"
    ],
    "t-a-s-o-mathieson": [
       "leslie-johnson"
@@ -207,7 +400,11 @@
       "duke-dinsmore"
    ],
    "o-s-c-a": [
-      "franco-rol"
+      "franco-rol",
+      "elie-bayol",
+      "giulio-cabianca",
+      "luigi-piotti",
+      "alessandro-de-tomaso"
    ],
    "b-bira": [
       "prince-bira"
@@ -216,17 +413,73 @@
       "reg-parnell",
       "peter-walker",
       "hans-von-stuck",
-      "ken-richardson"
+      "ken-richardson",
+      "ken-wharton",
+      "peter-collins",
+      "mike-hawthorn",
+      "tony-brooks",
+      "ron-flockhart",
+      "roy-salvadori",
+      "jack-fairman",
+      "les-leston",
+      "herbert-mackay-fraser",
+      "jean-behra",
+      "harry-schell",
+      "jo-bonnier",
+      "maurice-trintignant",
+      "dan-gurney",
+      "graham-hill",
+      "richie-ginther",
+      "bruce-johnstone",
+      "richard-attwood",
+      "jackie-stewart",
+      "mike-spence",
+      "pedro-rodriguez",
+      "bobby-unser",
+      "john-surtees",
+      "jackie-oliver",
+      "bill-brack",
+      "george-eaton",
+      "peter-westbury",
+      "jo-siffert",
+      "howden-ganley",
+      "peter-gethin",
+      "helmut-marko",
+      "vic-elford",
+      "john-cannon",
+      "reine-wisell",
+      "jean-pierre-beltoise",
+      "alex-soler-roig",
+      "brian-redman",
+      "vern-schuppan",
+      "clay-regazzoni",
+      "niki-lauda",
+      "chris-amon",
+      "henri-pescarolo",
+      "francois-migault",
+      "bob-evans",
+      "mike-wilds",
+      "ian-ashley",
+      "larry-perkins",
+      "teddy-pilette",
+      "conny-andersson",
+      "guy-edwards"
    ],
    "bob-estes": [
-      "joe-james"
+      "joe-james",
+      "jim-rigsby",
+      "don-freeland",
+      "bob-veith",
+      "don-branson"
    ],
    "brian-shawe-taylor-2": [
       "brian-shawe-taylor"
    ],
    "brown-motor-co": [
       "duke-dinsmore",
-      "gene-force"
+      "gene-force",
+      "andy-linden",
+      "bob-scott"
    ],
    "c-g-tuffanelli-j-derrico": [
       "mack-hellings"
@@ -240,10 +493,23 @@
    ],
    "ecurie-espadon": [
       "rudi-fischer",
-      "peter-hirt"
+      "peter-hirt",
+      "hans-von-stuck",
+      "rudolf-schoeller",
+      "kurt-adolff",
+      "max-de-terra"
    ],
    "ed-walsh": [
-      "johnnie-parsons"
+      "johnnie-parsons",
+      "joe-james",
+      "sam-hanks",
+      "duane-carter",
+      "jim-rathmann",
+      "pat-flaherty",
+      "andy-linden",
+      "art-cross",
+      "jimmy-davies",
+      "rodger-ward"
    ],
    "eugene-chaboud-2": [
       "eugene-chaboud"
@@ -259,64 +525,130 @@
    ],
    "vanwall": [
       "peter-whitehead",
-      "reg-parnell"
+      "reg-parnell",
+      "peter-collins",
+      "mike-hawthorn",
+      "harry-schell",
+      "ken-wharton",
+      "piero-taruffi",
+      "maurice-trintignant",
+      "jose-froilan-gonzalez",
+      "colin-chapman",
+      "stirling-moss",
+      "tony-brooks",
+      "stuart-lewis-evans",
+      "roy-salvadori"
    ],
    "george-h-leitenberger": [
-      "andy-linden"
+      "andy-linden",
+      "george-fonder"
    ],
    "georges-grignard-2": [
       "georges-grignard"
    ],
    "h-a-chapman": [
-      "bill-schindler"
+      "bill-schindler",
+      "ernie-mccoy",
+      "bob-scott",
+      "ed-elisian",
+      "andy-linden",
+      "bill-homeier",
+      "johnny-thomson",
+      "paul-russo",
+      "tony-bettenhausen",
+      "eddie-johnson",
+      "billy-garrett"
    ],
    "hwm": [
       "george-abecassis",
-      "stirling-moss"
+      "stirling-moss",
+      "yves-giraud-cabantous",
+      "duncan-hamilton",
+      "dries-van-der-lof",
+      "roger-laurent",
+      "lance-macklin",
+      "peter-collins",
+      "paul-frere",
+      "johnny-claes",
+      "jack-fairman",
+      "albert-scherrer",
+      "john-fitch"
    ],
    "jean-marcenac": [
       "duke-nalon",
       "chet-miller"
    ],
    "jim-robbins": [
-      "mike-nazaruk"
+      "mike-nazaruk",
+      "johnnie-parsons",
+      "cal-niday",
+      "jerry-hoyt",
+      "cliff-griffith",
+      "len-sutton",
+      "don-freeland",
+      "bud-tingelstad",
+      "eddie-johnson",
+      "dick-rathmann"
    ],
    "john-james-2": [
       "john-james"
    ],
    "john-l-mcdaniel": [
-      "bobby-ball"
+      "bobby-ball",
+      "jimmy-bryan",
+      "keith-andrews"
    ],
    "karl-hall": [
-      "bill-mackey"
+      "bill-mackey",
+      "chuck-arnold"
    ],
    "l-e-parks": [
       "jimmy-davies"
    ],
    "lee-elkins": [
-      "carl-scarborough"
+      "carl-scarborough",
+      "bob-sweikert",
+      "bob-scott",
+      "mike-nazaruk"
    ],
    "lindsey-hopkins": [
-      "henry-banks"
+      "henry-banks",
+      "bill-vukovich",
+      "jim-rathmann",
+      "tony-bettenhausen"
    ],
    "louis-bruce-bromme": [
-      "rodger-ward"
+      "rodger-ward",
+      "bob-scott"
    ],
    "maserati-race-cars": [
       "johnny-mcdowell"
    ],
    "pete-salemi": [
-      "bill-vukovich"
+      "bill-vukovich",
+      "eddie-johnson",
+      "shorty-templeman",
+      "gene-hartley",
+      "chuck-weyant"
    ],
    "peter-schmidt": [
-      "sam-hanks"
+      "sam-hanks",
+      "jimmy-bryan",
+      "pat-flaherty",
+      "manny-ayulo",
+      "johnny-thomson",
+      "eddie-sachs",
+      "bob-veith"
    ],
    "philip-fotheringham-parker-2": [
       "philip-fotheringham-parker"
    ],
    "rotary-engineering-corp": [
       "tony-bettenhausen",
-      "duane-carter"
+      "duane-carter",
+      "bobby-ball",
+      "andy-linden",
+      "pat-o-connor"
    ],
    "yves-giraud-cabantous-2": [
       "yves-giraud-cabantous",
@@ -343,7 +675,8 @@
       "gunther-bechem"
    ],
    "bessie-lee-paoli": [
-      "chuck-stevenson"
+      "chuck-stevenson",
+      "art-cross"
    ],
    "coast-grain-co": [
       "manny-ayulo"
@@ -353,7 +686,17 @@
       "ken-downing",
       "kenneth-mcalpine",
       "dennis-poore",
-      "stirling-moss"
+      "stirling-moss",
+      "prince-bira",
+      "jack-fairman",
+      "roy-salvadori",
+      "les-leston",
+      "ron-flockhart",
+      "archie-scott-brown",
+      "desmond-titterington",
+      "stuart-lewis-evans",
+      "ivor-bueb",
+      "bob-said"
    ],
    "era": [
       "stirling-moss"
@@ -362,15 +705,20 @@
       "tony-bettenhausen"
    ],
    "ecurie-ecosse": [
-      "david-murray"
+      "david-murray",
+      "ian-stewart",
+      "jimmy-stewart",
+      "leslie-thorne"
    ],
    "ecurie-francorchamps": [
       "charles-de-tornaco",
-      "roger-laurent"
+      "roger-laurent",
+      "jacques-swaters"
    ],
    "ecurie-richmond": [
       "eric-brandon",
-      "alan-brown"
+      "alan-brown",
+      "rodney-nuckey"
    ],
    "elie-bayol-2": [
       "elie-bayol"
@@ -390,7 +738,16 @@
    ],
    "federal-auto-associates": [
       "rodger-ward",
-      "george-connor"
+      "george-connor",
+      "paul-russo",
+      "gene-hartley",
+      "larry-crockett",
+      "fred-agabashian",
+      "chuck-weyant",
+      "bob-veith",
+      "bob-christie",
+      "jimmy-daywalt",
+      "shorty-templeman"
    ],
    "fritz-riess-2": [
       "fritz-riess"
@@ -399,16 +756,29 @@
       "roy-salvadori"
    ],
    "hans-klenk-2": [
-      "hans-klenk"
+      "hans-klenk",
+      "theo-helfrich"
    ],
    "hart-fullerton": [
-      "andy-linden"
+      "andy-linden",
+      "marshall-teague"
    ],
    "helmut-niedermayr-2": [
-      "helmut-niedermayr"
+      "helmut-niedermayr",
+      "theo-fitzau"
    ],
    "john-zink": [
-      "jimmy-reece"
+      "jimmy-reece",
+      "andy-linden",
+      "chuck-stevenson",
+      "jerry-hoyt",
+      "gene-hartley",
+      "marshall-teague",
+      "bob-sweikert",
+      "pat-flaherty",
+      "troy-ruttman",
+      "jud-larson",
+      "bob-veith"
    ],
    "josef-peters-2": [
       "josef-peters"
@@ -430,7 +800,8 @@
       "marcel-balsa"
    ],
    "mel-b-wiggers": [
-      "gene-hartley"
+      "gene-hartley",
+      "tony-bettenhausen"
    ],
    "motor-press-verlag": [
       "paul-pietsch"
@@ -439,7 +810,10 @@
       "piero-dusio"
    ],
    "ray-t-brady": [
-      "art-cross"
+      "art-cross",
+      "george-fonder",
+      "len-duncan",
+      "jim-mcwithey"
    ],
    "robert-o-brien-2": [
       "robert-o-brien"
@@ -448,7 +822,8 @@
       "robin-montgomerie-charrington"
    ],
    "roger-wolcott": [
-      "johnny-mcdowell"
+      "johnny-mcdowell",
+      "rodger-ward"
    ],
    "rudolf-krause-2": [
       "rudolf-krause"
@@ -497,25 +872,65 @@
       "spider-webb"
    ],
    "a-e-dean": [
-      "bob-sweikert"
+      "bob-sweikert",
+      "jimmy-bryan",
+      "a-j-foyt"
    ],
    "atlantic-stable": [
       "peter-whitehead"
    ],
    "chapman-s-root": [
-      "jimmy-daywalt"
+      "jimmy-daywalt",
+      "johnny-boyd",
+      "pat-o-connor",
+      "johnnie-parsons",
+      "marshall-teague",
+      "bobby-grim",
+      "gene-hartley"
    ],
    "cooper": [
       "stirling-moss",
       "alan-brown",
       "john-barber",
-      "adolfo-schwelm-cruz"
+      "adolfo-schwelm-cruz",
+      "jack-brabham",
+      "les-leston",
+      "roy-salvadori",
+      "mike-macdowel",
+      "ian-burgess",
+      "bruce-mclaren",
+      "jack-fairman",
+      "masten-gregory",
+      "giorgio-scarlatti",
+      "chuck-daigh",
+      "lance-reventlow",
+      "ron-flockhart",
+      "tony-maggs",
+      "timmy-mayer",
+      "phil-hill",
+      "john-love",
+      "jochen-rindt",
+      "john-surtees",
+      "chris-amon",
+      "moises-solana",
+      "richie-ginther",
+      "pedro-rodriguez",
+      "richard-attwood",
+      "alan-rees",
+      "jacky-ickx",
+      "ludovico-scarfiotti",
+      "lucien-bianchi",
+      "brian-redman",
+      "vic-elford",
+      "robin-widdows",
+      "johnny-servoz-gavin"
    ],
    "dora-greifzu": [
       "rudolf-krause"
    ],
    "emmanuel-de-graffenried-2": [
-      "emmanuel-de-graffenried"
+      "emmanuel-de-graffenried",
+      "ottorino-volonterio"
    ],
    "equipe-anglaise": [
       "alan-brown",
@@ -523,7 +938,10 @@
    ],
    "ernest-l-ruiz": [
       "eddie-johnson",
-      "jim-rathmann"
+      "jim-rathmann",
+      "jack-turner",
+      "elmer-george",
+      "jim-hurtubise"
    ],
    "ernst-loof-2": [
       "ernst-loof"
@@ -533,7 +951,12 @@
    ],
    "eugene-a-casaroll": [
       "johnny-mantz",
-      "walt-faulkner"
+      "walt-faulkner",
+      "james-jimmy-jackson",
+      "marshall-teague",
+      "tony-bettenhausen",
+      "duane-carter",
+      "troy-ruttman"
    ],
    "georges-berger-2": [
       "georges-berger"
@@ -563,17 +986,39 @@
       "alan-brown"
    ],
    "r-n-sabourin": [
-      "johnny-thomson"
+      "johnny-thomson",
+      "eddie-johnson",
+      "rodger-ward",
+      "eddie-russo"
    ],
    "ray-crawford-2": [
       "bill-holland",
-      "jim-rathmann"
+      "jim-rathmann",
+      "ernie-mccoy",
+      "ray-crawford"
    ],
    "rennkollektiv-emw": [
       "edgar-barth"
    ],
    "rob-walker-racing-team": [
-      "tony-rolt"
+      "tony-rolt",
+      "john-riseley-prichard",
+      "peter-walker",
+      "jack-brabham",
+      "stirling-moss",
+      "ron-flockhart",
+      "wolfgang-seidel",
+      "maurice-trintignant",
+      "francois-picard",
+      "jack-fairman",
+      "jo-bonnier",
+      "edgar-barth",
+      "jochen-rindt",
+      "hap-sharp",
+      "jo-siffert",
+      "geki",
+      "graham-hill",
+      "brian-redman"
    ],
    "rodney-nuckey-2": [
       "rodney-nuckey"
@@ -589,13 +1034,26 @@
       "spider-webb"
    ],
    "cars-inc": [
-      "bill-homeier"
+      "bill-homeier",
+      "sam-hanks",
+      "bob-christie",
+      "tony-bettenhausen"
    ],
    "mercedes": [
       "juan-manuel-fangio",
       "karl-kling",
       "hermann-lang",
-      "hans-herrmann"
+      "hans-herrmann",
+      "andre-simon",
+      "stirling-moss",
+      "piero-taruffi",
+      "michael-schumacher",
+      "nico-rosberg",
+      "lewis-hamilton",
+      "valtteri-bottas",
+      "george-russell",
+      "pascal-wehrlein",
+      "nikita-mazepin"
    ],
    "emmett-j-malloy": [
       "jimmy-reece"
@@ -610,7 +1068,9 @@
       "bob-sweikert"
    ],
    "gilby-engineering": [
-      "roy-salvadori"
+      "roy-salvadori",
+      "ivor-bueb",
+      "keith-greene"
    ],
    "giovanni-de-riu-2": [
       "giovanni-de-riu"
@@ -649,51 +1109,77 @@
    ],
    "lancia": [
       "alberto-ascari",
-      "luigi-villoresi"
+      "luigi-villoresi",
+      "eugenio-castellotti",
+      "louis-chiron"
    ],
    "sir-jeremy-boles": [
       "don-beauman"
    ],
    "south-california-muffler-co": [
-      "johnnie-parsons"
+      "johnnie-parsons",
+      "jim-rathmann"
    ],
    "t-w-w-t-martin": [
       "frank-armi",
-      "george-fonder"
+      "george-fonder",
+      "al-herman"
    ],
    "w-j-whitehouse": [
       "bill-whitehouse"
    ],
    "a-uria": [
-      "alberto-uria"
+      "alberto-uria",
+      "oscar-gonzalez",
+      "oscar-gonzalez-2"
    ],
    "carl-l-anderson": [
-      "johnnie-parsons"
+      "johnnie-parsons",
+      "johnnie-tolan"
    ],
    "e-n-whiteaway": [
       "ted-whiteaway"
    ],
    "e-r-casale": [
-      "rodger-ward"
+      "rodger-ward",
+      "billy-garrett"
    ],
    "equipe-nationale-belge": [
-      "johnny-claes"
+      "johnny-claes",
+      "lucien-bianchi",
+      "alain-de-changy",
+      "willy-mairesse",
+      "olivier-gendebien",
+      "andre-pilette"
    ],
    "harry-dunn": [
-      "pat-flaherty"
+      "pat-flaherty",
+      "keith-andrews",
+      "al-herman",
+      "chuck-weyant"
    ],
    "joseph-massaglia-jr": [
-      "andy-linden"
+      "andy-linden",
+      "jimmy-reece",
+      "gene-hartley",
+      "jack-turner"
    ],
    "kalamazoo-sports-inc": [
-      "eddie-johnson"
+      "eddie-johnson",
+      "dick-rathmann",
+      "andy-linden",
+      "ed-elisian",
+      "shorty-templeman"
    ],
    "merz-engineering-inc": [
       "bill-homeier",
       "walt-faulkner"
    ],
    "racing-associates": [
-      "cal-niday"
+      "cal-niday",
+      "bob-sweikert",
+      "johnny-thomson",
+      "don-freeland"
    ],
    "samuel-w-traylor-iii": [
       "al-keller"
@@ -711,7 +1197,9 @@
       "andre-simon"
    ],
    "ansted-rotary-corp": [
-      "pat-o-connor"
+      "pat-o-connor",
+      "don-freeland",
+      "wayne-weiler"
    ],
    "bugatti": [
       "maurice-trintignant"
@@ -720,10 +1208,14 @@
       "bruce-halford"
    ],
    "dean-van-lines": [
-      "jimmy-bryan"
+      "jimmy-bryan",
+      "a-j-foyt",
+      "eddie-sachs"
    ],
    "emeryson": [
-      "paul-emery"
+      "paul-emery",
+      "john-campbell-jones",
+      "tony-settember"
    ],
    "f-r-gerard-cars": [
       "bob-gerard"
@@ -733,16 +1225,22 @@
       "eddie-russo"
    ],
    "george-bignotti": [
-      "johnny-boyd"
+      "johnny-boyd",
+      "fred-agabashian"
    ],
    "giorgio-scarlatti-2": [
-      "giorgio-scarlatti"
+      "giorgio-scarlatti",
+      "jo-bonnier"
    ],
    "h-h-gould": [
-      "horace-gould"
+      "horace-gould",
+      "masten-gregory"
    ],
    "h-h-johnson": [
-      "bob-christie"
+      "bob-christie",
+      "jimmy-daywalt",
+      "art-bisch",
+      "al-keller"
    ],
    "j-a-brabham": [
       "jack-brabham"
@@ -752,10 +1250,14 @@
       "luigi-piotti"
    ],
    "novi-racing-corp": [
-      "paul-russo"
+      "paul-russo",
+      "tony-bettenhausen",
+      "bill-cheesbourg"
    ],
    "ottorino-volonterio-2": [
-      "ottorino-volonterio"
+      "ottorino-volonterio",
+      "andre-simon",
+      "giulio-cabianca"
    ],
    "p-scotti": [
       "piero-scotti"
@@ -765,21 +1267,65 @@
       "emmanuel-de-graffenried",
       "giorgio-scarlatti",
       "luigi-villoresi",
-      "louis-chiron"
+      "louis-chiron",
+      "andre-simon",
+      "jo-bonnier",
+      "masten-gregory",
+      "hans-herrmann",
+      "alessandro-de-tomaso",
+      "cliff-allison",
+      "gerino-gerini",
+      "carroll-shelby",
+      "maurice-trintignant",
+      "maria-teresa-de-filippis",
+      "troy-ruttman",
+      "wolfgang-seidel",
+      "horace-gould",
+      "nicha-cabral",
+      "azdrubal-fontes",
+      "fritz-d-orey",
+      "colin-davis",
+      "ian-burgess",
+      "roberto-bonomi",
+      "carlos-menditeguy",
+      "nasif-estefano",
+      "wolfgang-von-trips",
+      "alfonso-thiele",
+      "lorenzo-bandini",
+      "massimo-natili",
+      "moises-solana",
+      "ernesto-brambilla",
+      "tony-maggs",
+      "giancarlo-baghetti",
+      "lucien-bianchi",
+      "willy-mairesse",
+      "roberto-bussinello",
+      "giorgio-bassi"
    ],
    "scuderia-guastalla": [
       "umberto-maglioli",
       "gerino-gerini"
    ],
    "aiden-jones-paul-emery": [
-      "duke-dinsmore"
+      "duke-dinsmore",
+      "trevor-taylor-2"
    ],
    "porsche": [
       "umberto-maglioli",
-      "edgar-barth"
+      "edgar-barth",
+      "maria-teresa-de-filippis",
+      "wolfgang-von-trips",
+      "hans-herrmann",
+      "jo-bonnier",
+      "dan-gurney",
+      "phil-hill"
    ],
    "ecurie-maarsbergen": [
-      "carel-godin-de-beaufort"
+      "carel-godin-de-beaufort",
+      "hans-herrmann",
+      "ben-pon",
+      "wolfgang-seidel",
+      "gerhard-mitter"
    ],
    "francisco-godia-sales": [
       "paco-godia"
@@ -791,7 +1337,8 @@
       "eddie-russo"
    ],
    "george-salih": [
-      "sam-hanks"
+      "sam-hanks",
+      "jimmy-bryan"
    ],
    "george-walther-jr": [
       "mike-magill"
@@ -800,13 +1347,20 @@
       "brian-naylor"
    ],
    "j-s-donaldson": [
-      "bill-cheesbourg"
+      "bill-cheesbourg",
+      "eddie-johnson",
+      "dempsey-wilson"
    ],
    "jo-bonnier-2": [
-      "jo-bonnier"
+      "jo-bonnier",
+      "harry-schell",
+      "giulio-cabianca",
+      "hans-herrmann",
+      "phil-hill"
    ],
    "lysle-greenman": [
-      "johnnie-tolan"
+      "johnnie-tolan",
+      "bill-cheesbourg"
    ],
    "r-gibson": [
       "dick-gibson"
@@ -816,7 +1370,10 @@
       "paul-england"
    ],
    "roy-mckay": [
-      "don-edmunds"
+      "don-edmunds",
+      "jerry-unser",
+      "chuck-weyant",
+      "gene-force"
    ],
    "andre-guelfi-2": [
       "andre-guelfi"
@@ -836,7 +1393,23 @@
       "dempsey-wilson"
    ],
    "brp": [
-      "tommy-bridger"
+      "tommy-bridger",
+      "stirling-moss",
+      "hans-herrmann",
+      "ivor-bueb",
+      "chris-bristow",
+      "phil-hill",
+      "tony-brooks",
+      "olivier-gendebien",
+      "henry-taylor",
+      "bruce-halford",
+      "juan-manuel-bordeu",
+      "cliff-allison",
+      "masten-gregory",
+      "lucien-bianchi",
+      "jim-hall",
+      "innes-ireland",
+      "trevor-taylor-2"
    ],
    "ecurie-demi-litre": [
       "ivor-bueb"
@@ -848,13 +1421,16 @@
       "ed-elisian"
    ],
    "fred-gerhardt": [
-      "johnnie-parsons"
+      "johnnie-parsons",
+      "paul-russo"
    ],
    "henry-yunik": [
       "paul-goldsmith"
    ],
    "high-efficiency-motors": [
-      "ian-burgess"
+      "ian-burgess",
+      "jack-fairman",
+      "roy-salvadori"
    ],
    "juan-manuel-fangio-2": [
       "juan-manuel-fangio"
@@ -868,7 +1444,8 @@
       "maria-teresa-de-filippis"
    ],
    "norman-c-demler": [
-      "george-amick"
+      "george-amick",
+      "paul-goldsmith"
    ],
    "robert-la-caze-2": [
       "robert-la-caze"
@@ -884,7 +1461,65 @@
    "lotus": [
       "cliff-allison",
       "graham-hill",
-      "alan-stacey"
+      "alan-stacey",
+      "innes-ireland",
+      "pete-lovely",
+      "jim-clark",
+      "john-surtees",
+      "alberto-rodriguez-larreta",
+      "ron-flockhart",
+      "trevor-taylor-2",
+      "willy-mairesse",
+      "jo-siffert",
+      "mike-spence",
+      "pedro-rodriguez",
+      "peter-arundell",
+      "moises-solana",
+      "walt-hansgen",
+      "gerhard-mitter",
+      "geki",
+      "eppie-wietzes",
+      "giancarlo-baghetti",
+      "jackie-oliver",
+      "mario-andretti",
+      "bill-brack",
+      "jochen-rindt",
+      "richard-attwood",
+      "john-miles",
+      "emerson-fittipaldi",
+      "alex-soler-roig",
+      "reine-wisell",
+      "dave-charlton",
+      "dave-walker",
+      "ronnie-peterson",
+      "jacky-ickx",
+      "tim-schenken",
+      "brian-henton",
+      "jim-crawford",
+      "john-watson",
+      "bob-evans",
+      "gunnar-nilsson",
+      "jean-pierre-jarier",
+      "carlos-reutemann",
+      "elio-de-angelis",
+      "nigel-mansell",
+      "geoff-lees",
+      "roberto-moreno",
+      "ayrton-senna",
+      "johnny-dumfries",
+      "satoru-nakajima",
+      "nelson-piquet",
+      "derek-warwick",
+      "johnny-herbert",
+      "martin-donnelly",
+      "mika-hakkinen",
+      "julian-bailey",
+      "michael-bartels",
+      "alessandro-zanardi",
+      "pedro-lamy",
+      "mika-salo",
+      "philippe-adams",
+      "eric-bernard"
    ],
    "temple-buell": [
       "masten-gregory",
@@ -902,7 +1537,8 @@
    ],
    "bignotti-bowes-racing": [
       "jud-larson",
-      "johnny-boyd"
+      "johnny-boyd",
+      "a-j-foyt"
    ],
    "blanchard-automobile-co": [
       "harry-blanchard"
@@ -912,7 +1548,8 @@
    ],
    "aston-martin": [
       "carroll-shelby",
-      "roy-salvadori"
+      "roy-salvadori",
+      "maurice-trintignant"
    ],
    "david-fry": [
       "mike-parkes"
@@ -936,7 +1573,8 @@
       "red-amick"
    ],
    "leader-cards-inc": [
-      "rodger-ward"
+      "rodger-ward",
+      "chuck-stevenson"
    ],
    "mike-taylor-3": [
       "george-constantine"
@@ -949,7 +1587,26 @@
    ],
    "reg-parnell-racing": [
       "henry-taylor",
-      "tim-parnell"
+      "tim-parnell",
+      "john-surtees",
+      "roy-salvadori",
+      "chris-amon",
+      "maurice-trintignant",
+      "rodger-ward",
+      "hap-sharp",
+      "lucien-bianchi",
+      "mike-hailwood",
+      "masten-gregory",
+      "peter-revson",
+      "tony-maggs",
+      "bob-bondurant",
+      "innes-ireland",
+      "richard-attwood",
+      "mike-spence",
+      "giancarlo-baghetti",
+      "piers-courage",
+      "chris-irwin",
+      "pedro-rodriguez"
    ],
    "r-t-marley-sr": [
       "gene-hartley"
@@ -981,7 +1638,8 @@
    ],
    "camoradi": [
       "masten-gregory",
-      "fred-gamble"
+      "fred-gamble",
+      "ian-burgess"
    ],
    "equipe-prideaux-dick-gibson": [
       "vic-wilson"
@@ -1037,7 +1695,9 @@
       "david-piper"
    ],
    "scuderia-colonia": [
-      "piero-drogo"
+      "piero-drogo",
+      "michael-may",
+      "wolfgang-seidel"
    ],
    "scuderia-eugenio-castellotti": [
       "giulio-cabianca",
@@ -1105,7 +1765,10 @@
       "roberto-lippi"
    ],
    "tim-parnell-2": [
-      "tim-parnell"
+      "tim-parnell",
+      "john-campbell-jones",
+      "masten-gregory",
+      "andre-pilette"
    ],
    "anglo-american-equipe": [
       "ian-burgess"
@@ -1121,7 +1784,50 @@
       "roy-salvadori"
    ],
    "brabham": [
-      "jack-brabham"
+      "jack-brabham",
+      "dan-gurney",
+      "denny-hulme",
+      "giancarlo-baghetti",
+      "chris-irwin",
+      "jo-bonnier",
+      "jochen-rindt",
+      "graham-hill",
+      "jacky-ickx",
+      "rolf-stommelen",
+      "tim-schenken",
+      "dave-charlton",
+      "carlos-reutemann",
+      "wilson-fittipaldi",
+      "andrea-de-adamich",
+      "john-watson",
+      "carlos-pace",
+      "richard-robarts",
+      "rikky-von-opel",
+      "teddy-pilette",
+      "larry-perkins",
+      "hans-joachim-stuck",
+      "giorgio-francia",
+      "niki-lauda",
+      "nelson-piquet",
+      "ricardo-zunino",
+      "hector-rebaque",
+      "riccardo-patrese",
+      "corrado-fabi",
+      "manfred-winkelhock",
+      "teo-fabi",
+      "francois-hesnault",
+      "marc-surer",
+      "derek-warwick",
+      "elio-de-angelis",
+      "stefano-modena",
+      "andrea-de-cesaris",
+      "martin-brundle",
+      "david-brabham",
+      "gregor-foitek",
+      "mark-blundell",
+      "eric-van-de-poele",
+      "damon-hill",
+      "giovanna-amati"
    ],
    "dupont-team-zerex": [
       "roger-penske"
@@ -1129,13 +1835,16 @@
    "ecurie-filipinetti": [
       "jo-siffert",
       "heinz-schiller",
-      "heini-walter"
+      "heini-walter",
+      "phil-hill"
    ],
    "ecurie-galloise": [
       "jackie-lewis"
    ],
    "ecurie-bonnier": [
-      "jo-siffert"
+      "jo-siffert",
+      "jo-bonnier",
+      "helmut-marko"
    ],
    "ernest-pieterse": [
       "ernie-pieterse"
@@ -1145,7 +1854,8 @@
       "keith-greene"
    ],
    "john-love-2": [
-      "john-love"
+      "john-love",
+      "basil-van-rooyen"
    ],
    "john-mecom": [
       "rob-schroeder"
@@ -1157,7 +1867,8 @@
       "neville-lederle"
    ],
    "otello-nucci": [
-      "doug-serrurier"
+      "doug-serrurier",
+      "peter-de-klerk"
    ],
    "scuderia-jolly-club": [
       "ernesto-prinoth"
@@ -1183,7 +1894,8 @@
       "peter-broeker"
    ],
    "dw-racing-enterprises": [
-      "bob-anderson"
+      "bob-anderson",
+      "paul-hawkins"
    ],
    "david-prophet-2": [
       "david-prophet"
@@ -1192,7 +1904,8 @@
       "frank-dochnal"
    ],
    "ian-raby-racing": [
-      "ian-raby"
+      "ian-raby",
+      "chris-amon"
    ],
    "kurt-kuhnke-2": [
       "kurt-kuhnke"
@@ -1205,7 +1918,8 @@
    ],
    "scirocco": [
       "ian-burgess",
-      "tony-settember"
+      "tony-settember",
+      "andre-pilette"
    ],
    "scuderia-lupini": [
       "trevor-blokdyk"
@@ -1220,7 +1934,9 @@
       "brausch-niemann"
    ],
    "bob-gerard-racing": [
-      "john-taylor"
+      "john-taylor",
+      "john-rhodes",
+      "alan-rollinson"
    ],
    "derrington-francis": [
       "nicha-cabral"
@@ -1229,10 +1945,19 @@
       "jean-claude-rudaz"
    ],
    "honda": [
-      "ronnie-bucknum"
+      "ronnie-bucknum",
+      "richie-ginther",
+      "john-surtees",
+      "david-hobbs",
+      "jo-schlesser",
+      "rubens-barrichello",
+      "jenson-button",
+      "anthony-davidson",
+      "christian-klien"
    ],
    "john-willment-automobiles": [
-      "frank-gardner"
+      "frank-gardner",
+      "paul-hawkins"
    ],
    "maurice-trintignant-2": [
       "maurice-trintignant"
@@ -1253,16 +1978,70 @@
       "jackie-pretorius"
    ],
    "scuderia-scribante": [
-      "neville-lederle"
+      "neville-lederle",
+      "dave-charlton"
    ],
    "trevor-blokdyk-2": [
       "trevor-blokdyk"
    ],
    "bernard-white-racing": [
-      "innes-ireland"
+      "innes-ireland",
+      "david-hobbs",
+      "frank-gardner"
    ],
    "mclaren": [
-      "bruce-mclaren"
+      "bruce-mclaren",
+      "denny-hulme",
+      "derek-bell",
+      "peter-gethin",
+      "andrea-de-adamich",
+      "dan-gurney",
+      "nanni-galli",
+      "jackie-oliver",
+      "brian-redman",
+      "peter-revson",
+      "jody-scheckter",
+      "jacky-ickx",
+      "emerson-fittipaldi",
+      "david-hobbs",
+      "jochen-mass",
+      "mike-hailwood",
+      "james-hunt",
+      "bruno-giacomelli",
+      "gilles-villeneuve",
+      "patrick-tambay",
+      "john-watson",
+      "alain-prost",
+      "stephen-south",
+      "andrea-de-cesaris",
+      "niki-lauda",
+      "keke-rosberg",
+      "stefan-johansson",
+      "ayrton-senna",
+      "gerhard-berger",
+      "michael-andretti",
+      "mika-hakkinen",
+      "philippe-alliot",
+      "martin-brundle",
+      "mark-blundell",
+      "nigel-mansell",
+      "jan-magnussen",
+      "david-coulthard",
+      "kimi-raikkonen",
+      "alexander-wurz",
+      "juan-pablo-montoya",
+      "pedro-de-la-rosa",
+      "fernando-alonso",
+      "lewis-hamilton",
+      "heikki-kovalainen",
+      "jenson-button",
+      "sergio-perez",
+      "stoffel-vandoorne",
+      "kevin-magnussen",
+      "lando-norris",
+      "sergio-sette-camara",
+      "oliver-turvey",
+      "carlos-sainz"
    ],
    "chris-amon-2": [
       "chris-amon"
@@ -1299,7 +2078,9 @@
       "johnny-servoz-gavin",
       "jean-pierre-beltoise",
       "jo-schlesser",
-      "jacky-ickx"
+      "jacky-ickx",
+      "henri-pescarolo",
+      "chris-amon"
    ],
    "mike-fisher-2": [
       "mike-fisher"
@@ -1313,23 +2094,101 @@
    "tyrrell": [
       "jackie-stewart",
       "johnny-servoz-gavin",
-      "jean-pierre-beltoise"
+      "jean-pierre-beltoise",
+      "francois-cevert",
+      "peter-revson",
+      "patrick-depailler",
+      "chris-amon",
+      "jody-scheckter",
+      "jean-pierre-jabouille",
+      "michel-leclere",
+      "ronnie-peterson",
+      "didier-pironi",
+      "derek-daly",
+      "geoff-lees",
+      "jean-pierre-jarier",
+      "mike-thackwell",
+      "eddie-cheever",
+      "kevin-cogan",
+      "michele-alboreto",
+      "ricardo-zunino",
+      "brian-henton",
+      "slim-borgudd",
+      "danny-sullivan",
+      "martin-brundle",
+      "stefan-johansson",
+      "stefan-bellof",
+      "philippe-streiff",
+      "ivan-capelli",
+      "jonathan-palmer",
+      "julian-bailey",
+      "jean-alesi",
+      "johnny-herbert",
+      "satoru-nakajima",
+      "stefano-modena",
+      "olivier-grouillard",
+      "andrea-de-cesaris",
+      "ukyo-katayama",
+      "mark-blundell",
+      "gabriele-tarquini",
+      "mika-salo",
+      "jos-verstappen",
+      "riccardo-rosset",
+      "toranosuke-takagi"
    ],
    "stichting-autoraces-nederland": [
-      "jo-schlesser"
+      "jo-schlesser",
+      "gijs-van-lennep"
    ],
    "team-gunston": [
       "john-love",
-      "sam-tingle"
+      "sam-tingle",
+      "peter-de-klerk",
+      "jackie-pretorius",
+      "william-ferguson",
+      "ian-scheckter",
+      "paddy-driver",
+      "eddie-keizan",
+      "guy-tunmer"
    ],
    "team-pretoria": [
       "jackie-pretorius"
    ],
    "colin-crabbe-racing": [
-      "vic-elford"
+      "vic-elford",
+      "ronnie-peterson"
    ],
    "frank-williams-racing-cars": [
-      "piers-courage"
+      "piers-courage",
+      "tim-schenken",
+      "brian-redman",
+      "henri-pescarolo",
+      "max-jean",
+      "carlos-pace",
+      "jackie-pretorius",
+      "nanni-galli",
+      "howden-ganley",
+      "gijs-van-lennep",
+      "graham-mcrae",
+      "jacky-ickx",
+      "tom-belso",
+      "arturo-merzario",
+      "richard-robarts",
+      "jacques-laffite",
+      "jean-pierre-jabouille",
+      "damien-magee",
+      "francois-migault",
+      "ian-ashley",
+      "ian-scheckter",
+      "jo-vonlanthen",
+      "lella-lombardi",
+      "renzo-zorzi",
+      "tony-brise",
+      "chris-amon",
+      "hans-binder",
+      "michel-leclere",
+      "warwick-brown",
+      "emilio-zapico"
    ],
    "jack-holme": [
       "peter-de-klerk"
@@ -1360,20 +2219,80 @@
    ],
    "march": [
       "chris-amon",
-      "jo-siffert"
+      "jo-siffert",
+      "ronnie-peterson",
+      "alex-soler-roig",
+      "nanni-galli",
+      "andrea-de-adamich",
+      "mike-beuttler",
+      "niki-lauda",
+      "henri-pescarolo",
+      "jean-pierre-jarier",
+      "roger-williamson",
+      "reine-wisell",
+      "hans-joachim-stuck",
+      "howden-ganley",
+      "vittorio-brambilla",
+      "lella-lombardi",
+      "arturo-merzario",
+      "alex-ribeiro",
+      "ian-scheckter",
+      "brian-henton",
+      "derek-daly",
+      "eliseo-salazar",
+      "jochen-mass",
+      "rupert-keegan",
+      "raul-boesel",
+      "emilio-de-villota",
+      "ivan-capelli",
+      "mauricio-gugelmin",
+      "jan-lammers",
+      "karl-wendlinger",
+      "emanuele-naspetti",
+      "paul-belmondo"
    ],
    "stp-corporation": [
       "mario-andretti"
    ],
    "surtees": [
       "john-surtees",
-      "derek-bell"
+      "derek-bell",
+      "mike-hailwood",
+      "sam-posey",
+      "rolf-stommelen",
+      "brian-redman",
+      "tim-schenken",
+      "andrea-de-adamich",
+      "luiz-bueno",
+      "carlos-pace",
+      "jochen-mass",
+      "jose-dolhem",
+      "helmuth-koinigg",
+      "jean-pierre-jabouille",
+      "dieter-quester",
+      "john-watson",
+      "dave-morgan",
+      "brett-lunger",
+      "conny-andersson",
+      "noritake-takahara",
+      "alan-jones",
+      "hans-binder",
+      "lamberto-leoni",
+      "larry-perkins",
+      "patrick-tambay",
+      "vern-schuppan",
+      "vittorio-brambilla",
+      "gimax",
+      "rene-arnoux",
+      "rupert-keegan",
+      "beppe-gabbiani"
    ],
    "tom-wheatcroft-racing": [
       "derek-bell"
    ],
    "clarke-mordaunt-guthrie-racing": [
-      "mike-beuttler"
+      "mike-beuttler",
+      "niki-lauda"
    ],
    "ecurie-evergreen": [
       "chris-craft"
@@ -1389,7 +2308,8 @@
    ],
    "penske": [
       "mark-donohue",
-      "david-hobbs"
+      "david-hobbs",
+      "john-watson"
    ],
    "shell-arnold": [
       "jean-pierre-jarier"
@@ -1402,7 +2322,8 @@
    ],
    "tecno": [
       "nanni-galli",
-      "derek-bell"
+      "derek-bell",
+      "chris-amon"
    ],
    "scribante-lucky-strike-racing": [
       "dave-charlton"
@@ -1418,10 +2339,29 @@
       "reine-wisell"
    ],
    "embassy-hill": [
-      "graham-hill"
+      "graham-hill",
+      "guy-edwards",
+      "peter-gethin",
+      "rolf-stommelen",
+      "alan-jones",
+      "vern-schuppan",
+      "francois-migault",
+      "tony-brise"
    ],
    "hesketh": [
-      "james-hunt"
+      "james-hunt",
+      "ian-scheckter",
+      "brett-lunger",
+      "harald-ertl",
+      "alex-ribeiro",
+      "guy-edwards",
+      "rolf-stommelen",
+      "hector-rebaque",
+      "ian-ashley",
+      "rupert-keegan",
+      "derek-daly",
+      "divina-galica",
+      "eddie-cheever"
    ],
    "lec": [
       "david-purley"
@@ -1430,12 +2370,49 @@
       "reine-wisell"
    ],
    "ensign": [
-      "rikky-von-opel"
+      "rikky-von-opel",
+      "mike-wilds",
+      "vern-schuppan",
+      "gijs-van-lennep",
+      "roelof-wunderink",
+      "chris-amon",
+      "hans-binder",
+      "jacky-ickx",
+      "patrick-neve",
+      "clay-regazzoni",
+      "danny-ongais",
+      "derek-daly",
+      "lamberto-leoni",
+      "nelson-piquet",
+      "brett-lunger",
+      "marc-surer",
+      "patrick-gaillard",
+      "jan-lammers",
+      "tiff-needell",
+      "geoff-lees",
+      "eliseo-salazar",
+      "ricardo-londono",
+      "roberto-guerrero"
    ],
    "shadow": [
       "george-follmer",
       "jackie-oliver",
-      "brian-redman"
+      "brian-redman",
+      "bertil-roos",
+      "peter-revson",
+      "tom-pryce",
+      "jean-pierre-jarier",
+      "arturo-merzario",
+      "riccardo-patrese",
+      "alan-jones",
+      "renzo-zorzi",
+      "hans-joachim-stuck",
+      "clay-regazzoni",
+      "jan-lammers",
+      "elio-de-angelis",
+      "geoff-lees",
+      "stefan-johansson",
+      "david-kennedy"
    ],
    "aaw-racing-team": [
       "leo-kinnunen"
@@ -1461,7 +2438,9 @@
       "carlos-pace"
    ],
    "maki": [
-      "howden-ganley"
+      "howden-ganley",
+      "hiroshi-fushida",
+      "tony-trimmer"
    ],
    "memphis-international-team-surtees": [
       "dieter-quester"
@@ -1490,7 +2469,12 @@
    ],
    "fittipaldi": [
       "arturo-merzario",
-      "wilson-fittipaldi"
+      "wilson-fittipaldi",
+      "emerson-fittipaldi",
+      "ingo-hoffmann",
+      "alex-ribeiro",
+      "keke-rosberg",
+      "chico-serra"
    ],
    "custom-made-harry-stiller-racing": [
       "alan-jones"
@@ -1508,22 +2492,54 @@
       "harald-ertl"
    ],
    "bs-fabrications": [
-      "henri-pescarolo"
+      "henri-pescarolo",
+      "brett-lunger",
+      "nelson-piquet"
    ],
    "f-s-properties": [
       "boy-hayje"
    ],
    "boro": [
-      "larry-perkins"
+      "larry-perkins",
+      "brian-henton",
+      "loris-kessel"
    ],
    "heros": [
       "kazuyoshi-hoshino"
    ],
    "kojima": [
-      "masahiro-hasemi"
+      "masahiro-hasemi",
+      "noritake-takahara"
    ],
    "ligier": [
-      "jacques-laffite"
+      "jacques-laffite",
+      "jean-pierre-jarier",
+      "jacky-ickx",
+      "patrick-depailler",
+      "didier-pironi",
+      "jean-pierre-jabouille",
+      "patrick-tambay",
+      "eddie-cheever",
+      "raul-boesel",
+      "francois-hesnault",
+      "andrea-de-cesaris",
+      "philippe-streiff",
+      "rene-arnoux",
+      "philippe-alliot",
+      "piercarlo-ghinzani",
+      "stefan-johansson",
+      "olivier-grouillard",
+      "nicola-larini",
+      "thierry-boutsen",
+      "erik-comas",
+      "martin-brundle",
+      "mark-blundell",
+      "franck-lagorce",
+      "johnny-herbert",
+      "eric-bernard",
+      "olivier-panis",
+      "aguri-suzuki",
+      "pedro-diniz"
    ],
    "oasc-racing-team": [
       "otto-stuppacher"
@@ -1536,7 +2552,22 @@
       "jac-nelleman",
       "lella-lombardi",
       "patrick-neve",
-      "rolf-stommelen"
+      "rolf-stommelen",
+      "michael-bleekemolen",
+      "mikko-kozarowitzky",
+      "andy-sutcliffe",
+      "boy-hayje",
+      "rupert-keegan",
+      "geoff-lees",
+      "kevin-cogan",
+      "eliseo-salazar",
+      "jacques-villeneuve-sr",
+      "kenny-acheson",
+      "jean-louis-schlesser",
+      "philippe-alliot",
+      "jonathan-palmer",
+      "mike-thackwell",
+      "manfred-winkelhock"
    ],
    "scuderia-gulf-rondini": [
       "alessandro-pesenti-rossi"
@@ -1550,7 +2581,19 @@
    "ats": [
       "hans-binder",
       "jean-pierre-jarier",
-      "hans-heyer"
+      "hans-heyer",
+      "jochen-mass",
+      "michael-bleekemolen",
+      "alberto-colombo",
+      "harald-ertl",
+      "keke-rosberg",
+      "hans-joachim-stuck",
+      "marc-surer",
+      "jan-lammers",
+      "slim-borgudd",
+      "manfred-winkelhock",
+      "eliseo-salazar",
+      "gerhard-berger"
    ],
    "brian-mcguire-2": [
       "brian-mcguire"
@@ -1560,7 +2603,35 @@
       "brian-henton"
    ],
    "renault": [
-      "jean-pierre-jabouille"
+      "jean-pierre-jabouille",
+      "rene-arnoux",
+      "alain-prost",
+      "eddie-cheever",
+      "patrick-tambay",
+      "derek-warwick",
+      "philippe-streiff",
+      "francois-hesnault",
+      "jarno-trulli",
+      "jenson-button",
+      "fernando-alonso",
+      "jacques-villeneuve",
+      "giancarlo-fisichella",
+      "heikki-kovalainen",
+      "nelson-piquet-jr",
+      "romain-grosjean",
+      "robert-kubica",
+      "vitaly-petrov",
+      "bruno-senna",
+      "nick-heidfeld",
+      "kevin-magnussen",
+      "jolyon-palmer",
+      "esteban-ocon",
+      "sergey-sirotkin",
+      "nico-hulkenberg",
+      "carlos-sainz",
+      "jack-aitken",
+      "artem-markelov",
+      "daniel-ricciardo"
    ],
    "iberia-airlines": [
       "emilio-de-villota"
@@ -1575,20 +2646,109 @@
       "kunimitsu-takahashi"
    ],
    "merzario": [
-      "arturo-merzario"
+      "arturo-merzario",
+      "alberto-colombo",
+      "gianfranco-brancatelli"
    ],
    "theodore": [
-      "patrick-tambay"
+      "patrick-tambay",
+      "eddie-cheever",
+      "keke-rosberg",
+      "marc-surer",
+      "derek-daly",
+      "geoff-lees",
+      "jan-lammers",
+      "tommy-byrne",
+      "roberto-guerrero",
+      "johnny-cecotto"
    ],
    "walter-wolf-racing": [
-      "jody-scheckter"
+      "jody-scheckter",
+      "bobby-rahal",
+      "james-hunt",
+      "keke-rosberg"
    ],
    "williams": [
-      "patrick-neve"
+      "patrick-neve",
+      "alan-jones",
+      "clay-regazzoni",
+      "carlos-reutemann",
+      "derek-daly",
+      "mario-andretti",
+      "keke-rosberg",
+      "jacques-laffite",
+      "jonathan-palmer",
+      "nigel-mansell",
+      "nelson-piquet",
+      "riccardo-patrese",
+      "jean-louis-schlesser",
+      "martin-brundle",
+      "thierry-boutsen",
+      "damon-hill",
+      "alain-prost",
+      "ayrton-senna",
+      "david-coulthard",
+      "jacques-villeneuve",
+      "heinz-harald-frentzen",
+      "alessandro-zanardi",
+      "ralf-schumacher",
+      "jenson-button",
+      "juan-pablo-montoya",
+      "marc-gene",
+      "antonio-pizzonia",
+      "mark-webber",
+      "nick-heidfeld",
+      "nico-rosberg",
+      "alexander-wurz",
+      "kazuki-nakajima",
+      "rubens-barrichello",
+      "nico-hulkenberg",
+      "pastor-maldonado",
+      "bruno-senna",
+      "valtteri-bottas",
+      "felipe-massa",
+      "felipe-nasr",
+      "susie-wolff",
+      "lance-stroll",
+      "paul-di-resta",
+      "oliver-rowland",
+      "sergey-sirotkin",
+      "robert-kubica",
+      "nicholas-latifi",
+      "roy-nissany",
+      "george-russell",
+      "jack-aitken"
    ],
    "arrows": [
       "riccardo-patrese",
-      "rolf-stommelen"
+      "rolf-stommelen",
+      "jochen-mass",
+      "manfred-winkelhock",
+      "mike-thackwell",
+      "jacques-villeneuve-sr",
+      "siegfried-stohr",
+      "brian-henton",
+      "marc-surer",
+      "mauro-baldi",
+      "alan-jones",
+      "chico-serra",
+      "thierry-boutsen",
+      "gerhard-berger",
+      "christian-danner",
+      "derek-warwick",
+      "eddie-cheever",
+      "martin-donnelly",
+      "michele-alboreto",
+      "alex-caffi",
+      "bernd-schneider",
+      "damon-hill",
+      "pedro-diniz",
+      "mika-salo",
+      "pedro-de-la-rosa",
+      "toranosuke-takagi",
+      "jos-verstappen",
+      "enrique-bernoldi",
+      "heinz-harald-frentzen"
    ],
    "automobiles-martini": [
       "rene-arnoux"
@@ -1615,57 +2775,187 @@
       "desire-wilson"
    ],
    "osella": [
-      "eddie-cheever"
+      "eddie-cheever",
+      "beppe-gabbiani",
+      "miguel-angel-guerra",
+      "giorgio-francia",
+      "jean-pierre-jarier",
+      "piercarlo-ghinzani",
+      "riccardo-paletti",
+      "corrado-fabi",
+      "jo-gartner",
+      "huub-rothengatter",
+      "alex-caffi",
+      "allen-berg",
+      "christian-danner",
+      "franco-forini",
+      "gabriele-tarquini",
+      "nicola-larini",
+      "olivier-grouillard"
    ],
    "toleman": [
       "brian-henton",
-      "derek-warwick"
+      "derek-warwick",
+      "teo-fabi",
+      "bruno-giacomelli",
+      "ayrton-senna",
+      "stefan-johansson",
+      "johnny-cecotto",
+      "pierluigi-martini",
+      "piercarlo-ghinzani"
    ],
    "spirit": [
-      "stefan-johansson"
+      "stefan-johansson",
+      "huub-rothengatter",
+      "mauro-baldi"
    ],
    "minardi": [
-      "pierluigi-martini"
+      "pierluigi-martini",
+      "andrea-de-cesaris",
+      "alessandro-nannini",
+      "adrian-campos",
+      "luis-perez-sala",
+      "paolo-barilla",
+      "gianni-morbidelli",
+      "roberto-moreno",
+      "alessandro-zanardi",
+      "christian-fittipaldi",
+      "jean-marc-gounon",
+      "fabrizio-barbazza",
+      "michele-alboreto",
+      "pedro-lamy",
+      "luca-badoer",
+      "giancarlo-fisichella",
+      "giovanni-lavaggi",
+      "tarso-marques",
+      "jarno-trulli",
+      "ukyo-katayama",
+      "shinji-nakano",
+      "esteban-tuero",
+      "stephane-sarrazin",
+      "marc-gene",
+      "gaston-mazzacane",
+      "alex-yoong",
+      "fernando-alonso",
+      "anthony-davidson",
+      "mark-webber",
+      "justin-wilson",
+      "nicolas-kiesa",
+      "jos-verstappen",
+      "gianmaria-bruni",
+      "zsolt-baumgartner",
+      "bas-leinders",
+      "patrick-friesacher",
+      "robert-doornbos",
+      "christijan-albers",
+      "chanoch-nissany",
+      "enrico-toccacelo"
    ],
    "team-haas-usa-ltd": [
-      "alan-jones"
+      "alan-jones",
+      "eddie-cheever",
+      "patrick-tambay"
    ],
    "zakspeed": [
       "christian-danner",
-      "jonathan-palmer"
+      "jonathan-palmer",
+      "huub-rothengatter",
+      "martin-brundle",
+      "piercarlo-ghinzani",
+      "bernd-schneider",
+      "aguri-suzuki"
    ],
    "benetton": [
       "teo-fabi",
-      "gerhard-berger"
+      "gerhard-berger",
+      "thierry-boutsen",
+      "alessandro-nannini",
+      "emanuele-pirro",
+      "johnny-herbert",
+      "roberto-moreno",
+      "nelson-piquet",
+      "michael-schumacher",
+      "martin-brundle",
+      "riccardo-patrese",
+      "jj-lehto",
+      "jos-verstappen",
+      "jean-alesi",
+      "alexander-wurz",
+      "giancarlo-fisichella",
+      "jenson-button"
    ],
    "ags": [
-      "ivan-capelli"
+      "ivan-capelli",
+      "pascal-fabre",
+      "roberto-moreno",
+      "philippe-streiff",
+      "gabriele-tarquini",
+      "joachim-winkelhock",
+      "yannick-dalmas",
+      "olivier-grouillard",
+      "fabrizio-barbazza",
+      "stefan-johansson"
    ],
    "scuderia-coloni": [
-      "nicola-larini"
+      "nicola-larini",
+      "gabriele-tarquini",
+      "roberto-moreno",
+      "enrico-bertaggia",
+      "pierre-henri-raphanel",
+      "bertrand-gachot",
+      "naoki-hattori",
+      "pedro-chaves"
    ],
    "larrousse": [
       "yannick-dalmas",
-      "philippe-alliot"
+      "philippe-alliot",
+      "aguri-suzuki",
+      "pierre-henri-raphanel",
+      "michele-alboreto",
+      "eric-bernard",
+      "bertrand-gachot",
+      "ukyo-katayama",
+      "toshio-suzuki",
+      "erik-comas",
+      "hideki-noda",
+      "olivier-beretta",
+      "jean-denis-deletraz"
    ],
    "euro-brun": [
       "oscar-larrauri",
-      "stefano-modena"
+      "stefano-modena",
+      "gregor-foitek",
+      "roberto-moreno",
+      "claudio-langes"
    ],
    "rial-racing": [
-      "andrea-de-cesaris"
+      "andrea-de-cesaris",
+      "christian-danner",
+      "gregor-foitek",
+      "bertrand-gachot",
+      "pierre-henri-raphanel",
+      "volker-weidler"
    ],
    "bms-scuderia-italia": [
-      "alex-caffi"
+      "alex-caffi",
+      "andrea-de-cesaris",
+      "emanuele-pirro",
+      "gianni-morbidelli",
+      "jj-lehto",
+      "pierluigi-martini",
+      "michele-alboreto",
+      "luca-badoer"
    ],
    "onyx": [
       "stefan-johansson",
       "bertrand-gachot",
-      "jj-lehto"
+      "jj-lehto",
+      "gregor-foitek"
    ],
    "leyton-house": [
       "mauricio-gugelmin",
-      "ivan-capelli"
+      "ivan-capelli",
+      "karl-wendlinger"
    ],
    "life": [
       "bruno-giacomelli",
@@ -1673,12 +2963,22 @@
    ],
    "fondmetal": [
       "gabriele-tarquini",
-      "olivier-grouillard"
+      "olivier-grouillard",
+      "andrea-chiesa",
+      "eric-van-de-poele"
    ],
    "footwork": [
       "michele-alboreto",
       "alex-caffi",
-      "stefan-johansson"
+      "stefan-johansson",
+      "aguri-suzuki",
+      "derek-warwick",
+      "christian-fittipaldi",
+      "gianni-morbidelli",
+      "massimiliano-papis",
+      "taki-inoue",
+      "riccardo-rosset",
+      "jos-verstappen"
    ],
    "modena-team-spa": [
       "nicola-larini",
@@ -1689,7 +2989,36 @@
       "bertrand-gachot",
       "michael-schumacher",
       "roberto-moreno",
-      "andrea-de-cesaris"
+      "andrea-de-cesaris",
+      "stefano-modena",
+      "mauricio-gugelmin",
+      "rubens-barrichello",
+      "eddie-irvine",
+      "emanuele-naspetti",
+      "ivan-capelli",
+      "marco-apicella",
+      "thierry-boutsen",
+      "aguri-suzuki",
+      "martin-brundle",
+      "ralf-schumacher",
+      "giancarlo-fisichella",
+      "damon-hill",
+      "heinz-harald-frentzen",
+      "jarno-trulli",
+      "ricardo-zonta",
+      "jean-alesi",
+      "takuma-sato",
+      "ralph-firman",
+      "zsolt-baumgartner",
+      "nick-heidfeld",
+      "giorgio-pantano",
+      "timo-glock",
+      "robert-doornbos",
+      "tiago-monteiro",
+      "narain-karthikeyan",
+      "franck-montagny",
+      "nicolas-kiesa",
+      "sakon-yamamoto"
    ],
    "andrea-moda": [
       "alex-caffi",
@@ -1699,7 +3028,37 @@
    ],
    "sauber": [
       "karl-wendlinger",
-      "jj-lehto"
+      "jj-lehto",
+      "andrea-de-cesaris",
+      "heinz-harald-frentzen",
+      "jean-christophe-boullion",
+      "johnny-herbert",
+      "gianni-morbidelli",
+      "nicola-larini",
+      "norberto-fontana",
+      "jean-alesi",
+      "pedro-diniz",
+      "mika-salo",
+      "nick-heidfeld",
+      "kimi-raikkonen",
+      "felipe-massa",
+      "giancarlo-fisichella",
+      "jacques-villeneuve",
+      "kamui-kobayashi",
+      "pedro-de-la-rosa",
+      "sergio-perez",
+      "esteban-gutierrez",
+      "nico-hulkenberg",
+      "giedo-van-der-garde",
+      "adderly-fong",
+      "sergey-sirotkin",
+      "adrian-sutil",
+      "marcus-ericsson",
+      "felipe-nasr",
+      "raffaele-marciello",
+      "antonio-giovinazzi",
+      "charles-leclerc",
+      "pascal-wehrlein"
    ],
    "simtek": [
       "david-brabham",
@@ -1707,54 +3066,102 @@
       "domenico-schiattarella",
       "jean-marc-gounon",
       "roland-ratzenberger",
-      "taki-inoue"
+      "taki-inoue",
+      "jos-verstappen"
    ],
    "pacific": [
       "paul-belmondo",
-      "bertrand-gachot"
+      "bertrand-gachot",
+      "giovanni-lavaggi",
+      "jean-denis-deletraz",
+      "andrea-montermini"
    ],
    "forti": [
       "pedro-diniz",
-      "roberto-moreno"
+      "roberto-moreno",
+      "luca-badoer",
+      "andrea-montermini"
    ],
    "lola": [
       "vincenzo-sospiri",
-      "riccardo-rosset"
+      "riccardo-rosset",
+      "lando-norris",
+      "stoffel-vandoorne",
+      "fernando-alonso"
    ],
    "prost": [
       "jarno-trulli",
       "olivier-panis",
-      "shinji-nakano"
+      "shinji-nakano",
+      "jean-alesi",
+      "nick-heidfeld",
+      "heinz-harald-frentzen",
+      "gaston-mazzacane",
+      "luciano-burti",
+      "tomas-enge"
    ],
    "stewart": [
       "rubens-barrichello",
-      "jan-magnussen"
+      "jan-magnussen",
+      "jos-verstappen",
+      "johnny-herbert"
    ],
    "bar": [
       "jacques-villeneuve",
       "mika-salo",
-      "ricardo-zonta"
+      "ricardo-zonta",
+      "olivier-panis",
+      "takuma-sato",
+      "jenson-button",
+      "anthony-davidson"
    ],
    "jaguar": [
       "eddie-irvine",
       "luciano-burti",
-      "johnny-herbert"
+      "johnny-herbert",
+      "pedro-de-la-rosa",
+      "mark-webber",
+      "antonio-pizzonia",
+      "justin-wilson",
+      "christian-klien",
+      "bjorn-wirdheim"
    ],
    "toyota": [
       "mika-salo",
-      "allan-mcnish"
+      "allan-mcnish",
+      "olivier-panis",
+      "cristiano-da-matta",
+      "jarno-trulli",
+      "ricardo-zonta",
+      "ryan-briscoe",
+      "ralf-schumacher",
+      "timo-glock",
+      "kamui-kobayashi"
    ],
    "red-bull-racing": [
       "david-coulthard",
       "christian-klien",
       "vitantonio-liuzzi",
-      "scott-speed"
+      "scott-speed",
+      "robert-doornbos",
+      "michael-ammermuller",
+      "mark-webber",
+      "sebastian-vettel",
+      "sebastien-buemi",
+      "daniel-ricciardo",
+      "daniil-kvyat",
+      "max-verstappen",
+      "pierre-gasly",
+      "alexander-albon",
+      "dan-ticktum"
    ],
    "bmw-sauber": [
       "nick-heidfeld",
       "jacques-villeneuve",
       "robert-kubica",
-      "sebastian-vettel"
+      "sebastian-vettel",
+      "pedro-de-la-rosa",
+      "kamui-kobayashi"
    ],
    "midland": [
       "adrian-sutil",
@@ -1766,13 +3173,28 @@
    "scuderia-alphatauri-honda": [
       "vitantonio-liuzzi",
       "scott-speed",
-      "neel-jani"
+      "neel-jani",
+      "sebastian-vettel",
+      "sebastien-bourdais",
+      "jaime-alguersuari",
+      "sebastien-buemi",
+      "daniel-ricciardo",
+      "jean-eric-vergne",
+      "daniil-kvyat",
+      "max-verstappen",
+      "carlos-sainz",
+      "pierre-gasly",
+      "sean-gelael",
+      "brendon-hartley",
+      "alexander-albon",
+      "naoki-yamamoto"
    ],
    "super-aguri": [
       "takuma-sato",
       "franck-montagny",
       "sakon-yamamoto",
-      "yuji-ide"
+      "yuji-ide",
+      "anthony-davidson"
    ],
    "spyker": [
       "adrian-sutil",
@@ -1782,7 +3204,20 @@
    ],
    "force-india": [
       "adrian-sutil",
-      "giancarlo-fisichella"
+      "giancarlo-fisichella",
+      "vitantonio-liuzzi",
+      "paul-di-resta",
+      "nico-hulkenberg",
+      "jules-bianchi",
+      "james-calado-2",
+      "james-calado",
+      "sergio-perez",
+      "daniel-juncadella",
+      "alfonso-celis-jr",
+      "esteban-ocon",
+      "george-russell",
+      "nicholas-latifi",
+      "nikita-mazepin"
    ],
    "brawn": [
       "jenson-button",
@@ -1792,11 +3227,21 @@
       "christian-klien",
       "karun-chandhok",
       "sakon-yamamoto",
-      "bruno-senna"
+      "bruno-senna",
+      "daniel-ricciardo",
+      "narain-karthikeyan",
+      "jan-charouz",
+      "vitantonio-liuzzi",
+      "pedro-de-la-rosa",
+      "dani-clos",
+      "ma-qing-hua"
    ],
    "lotus-racing": [
       "jarno-trulli",
-      "heikki-kovalainen"
+      "heikki-kovalainen",
+      "davide-valsecchi",
+      "karun-chandhok",
+      "luiz-razia"
    ],
    "virgin-racing": [
       "timo-glock",
@@ -1807,22 +3252,45 @@
       "heikki-kovalainen",
       "vitaly-petrov",
       "alexander-rossi",
-      "giedo-van-der-garde"
+      "giedo-van-der-garde",
+      "charles-pic",
+      "ma-qing-hua",
+      "marcus-ericsson",
+      "kamui-kobayashi",
+      "andre-lotterer",
+      "roberto-merhi",
+      "robin-frijns",
+      "will-stevens"
    ],
    "lotus-f1": [
       "kimi-raikkonen",
       "jerome-d-ambrosio",
-      "romain-grosjean"
+      "romain-grosjean",
+      "heikki-kovalainen",
+      "charles-pic",
+      "pastor-maldonado",
+      "esteban-ocon",
+      "jolyon-palmer"
    ],
    "marussia": [
       "timo-glock",
       "charles-pic",
-      "max-chilton"
+      "max-chilton",
+      "jules-bianchi",
+      "rodolfo-gonzalez",
+      "rodolfo-gonzalez-2",
+      "alexander-rossi",
+      "will-stevens",
+      "fabio-leimer",
+      "roberto-merhi"
    ],
    "haas": [
       "romain-grosjean",
       "esteban-gutierrez",
-      "charles-leclerc"
+      "charles-leclerc",
+      "kevin-magnussen",
+      "antonio-giovinazzi",
+      "pietro-fittipaldi"
    ],
    "manor-racing": [
       "esteban-ocon",
@@ -1833,6 +3301,9 @@
    "bwt-racing-point-f1-team": [
       "sergio-perez",
       "esteban-ocon",
-      "nicholas-latifi"
+      "nicholas-latifi",
+      "lance-stroll",
+      "nick-yelloly",
+      "nico-hulkenberg"
    ]
 }

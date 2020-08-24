@@ -148,7 +148,7 @@ export function ExtractTeamNamesAndDrivers(
       for (const team in teamDriver)
          if (team !== 'season') {
             if (team in teamsDrivers)
-               teamsDrivers[team].concat(teamDriver[team]);
+               teamsDrivers[team] = teamsDrivers[team].concat(teamDriver[team]);
             else teamsDrivers[team] = teamDriver[team];
          }
 
