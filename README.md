@@ -2,7 +2,7 @@
 
 ## Website [https://pratikpc.github.io/six-degree-f1/](https://pratikpc.github.io/six-degree-f1/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Extracts Driver Pairs, Distances Between Drivers, Generates them and Stores them for you to utilise in your JS or TS App [from this URL](https://fiaresultsandstatistics.motorsportstats.com/)
 
@@ -16,10 +16,11 @@ import {
    Path,
    TeamIdAndNameLink,
    TeamNamesAndDrivers
-} from 'formula1-extract-driver-pairs';
+} from 'formula-one-six-degrees-metadata';
 ```
 
 ## Generate
+
 ```ts
 const SEASONF = 1950;
 const SEASONE = 2020;
