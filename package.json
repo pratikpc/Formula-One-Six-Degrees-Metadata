@@ -7,16 +7,16 @@
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "tsc",
-      "start": "nodemon --watch dist ./dist/run.js",
-      "deploy": "node ./dist/run.js",
+      "generate-demon": "nodemon --watch dist ./dist/run.js",
+      "generate": "node ./dist/run.js",
       "lint": "eslint --cache --max-warnings=0 --fix lib",
       "format": "prettier --ignore-path .gitignore --write lib/**/*.ts* ./*.json"
    },
    "repository": {
       "type": "git",
-      "url": "https://github.com/pratikpc/Formula1-Extract-Driver-Pairs/"
+      "url": "https://github.com/pratikpc/Formula-One-Six-Degrees-Metadata/"
    },
-   "homepage": "https://github.com/pratikpc/Formula1-Extract-Driver-Pairs/",
+   "homepage": "https://github.com/pratikpc/Formula-One-Six-Degrees-Metadata/",
    "keywords": [
       "Formula One",
       "Formula 1",
@@ -26,7 +26,7 @@
    "author": "",
    "license": "MIT",
    "bugs": {
-      "url": "https://github.com/pratikpc/Formula1-Extract-Driver-Pairs/issues"
+      "url": "https://github.com/pratikpc/Formula-One-Six-Degrees-Metadata/issues"
    },
    "devDependencies": {
       "@types/express": "^4.17.7",

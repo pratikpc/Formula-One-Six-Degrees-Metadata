@@ -1,8 +1,15 @@
 import mkdirp from 'mkdirp';
 
-import { DATA_DIR, RESULTS_DIR, SEASONE, SEASONF } from './env';
+import { DATA_DIR, RESULTS_DIR } from './env';
+
 import ExtractDriverNamesMates from './Generator';
 import Graph from './GraphFile';
+
+const SEASONF = 1950;
+const SEASONE = 2020;
+const TEAM_DRIVER_HEADER = '._2xhp6';
+const TEAM_DRIVER_TABLE_HEADER = 'Vv8Fg';
+const ENTRY_LIST = 'h2._2Asch:contains("Entry List")';
 
 async function Run() {
    await mkdirp(DATA_DIR);
@@ -15,7 +22,13 @@ async function Run() {
       driverIdAndNameLink,
       teamIdAndNameLink,
       teamNamesAndDrivers
-   } = await ExtractDriverNamesMates(SEASONF, SEASONE);
+   } = await ExtractDriverNamesMates(
+      SEASONF,
+      SEASONE,
+      TEAM_DRIVER_TABLE_HEADER,
+      TEAM_DRIVER_HEADER,
+      ENTRY_LIST
+   );
 
    const graph = new Graph(teamMates);
    await graph.AllPairShortestPath({ cache: true });
@@ -29,7 +42,26 @@ async function Run() {
    await Graph.WriteFile(`teamIdAndNameLink.json`, teamIdAndNameLink);
    await Graph.WriteFile(
       `index.ts`,
-      `import TeamNamesAndDrivers from './teamNamesAndDrivers.json';\nimport TeamIdAndNameLink from './teamIdAndNameLink.json';\nimport Drivers from './drivers.json';\nimport TeamAndDriver from './teamAndDriver.json';\nimport DriverIdAndNameLink from './driverIdAndNameLink.json';\nimport TeamMates from './teamMates.json';\nimport Distance from './distance.json';\nimport Path from './path.json';\n\nexport { Drivers, TeamAndDriver, TeamMates, DriverIdAndNameLink, Distance, Path, TeamIdAndNameLink, TeamNamesAndDrivers };\n`
+      `import TeamNamesAndDrivers from './teamNamesAndDrivers.json';
+import TeamIdAndNameLink from './teamIdAndNameLink.json';
+import Drivers from './drivers.json';
+import TeamAndDriver from './teamAndDriver.json';
+import DriverIdAndNameLink from './driverIdAndNameLink.json';
+import TeamMates from './teamMates.json';
+import Distance from './distance.json';
+import Path from './path.json';
+
+export {
+   Drivers,
+   TeamAndDriver,
+   TeamMates,
+   DriverIdAndNameLink,
+   Distance,
+   Path,
+   TeamIdAndNameLink,
+   TeamNamesAndDrivers
+};
+`
    );
    console.log('Results Written');
 }

@@ -6,31 +6,29 @@ import cheerio from 'cheerio';
 import { existsSync } from 'fs';
 import { writeFile, readFile } from 'fs/promises';
 
-import {
-   URL,
-   TEAM_DRIVER_TABLE_HEADER,
-   TEAM_DRIVER_HEADER,
-   ENTRY_LIST,
-   DATA_DIR
-} from './env';
+import { URL, DATA_DIR } from './env';
 
 export async function Load(season: number) {
    const fileName = join(DATA_DIR, `${season}.html`);
    if (existsSync(fileName)) {
-      return await readFile(fileName, 'utf8');
+      return cheerio.load(await readFile(fileName, 'utf8'));
    }
    const url = `${URL}/${season}`;
    const html = await (await axios.get(url)).data;
    await writeFile(fileName, html, 'utf8');
-   return html;
+   return cheerio.load(html);
 }
 
-async function ProcessSeason(season: number) {
-   const htmlText = await Load(season);
-   const html = cheerio.load(htmlText);
-   const teamDriverHeader = html(`.${TEAM_DRIVER_TABLE_HEADER}`)
-      .has(ENTRY_LIST)
-      .find(`${TEAM_DRIVER_HEADER}`)
+async function ProcessSeason(
+   season: number,
+   teamDriverTableHeader: string,
+   teamDriverHeaderQp: string,
+   entryList: string
+) {
+   const html = await Load(season);
+   const teamDriverHeader = html(`.${teamDriverTableHeader}`)
+      .has(entryList)
+      .find(`${teamDriverHeaderQp}`)
       .toArray();
    // eslint-disable-next-line @typescript-eslint/no-explicit-any
    const teamDrivers: any[] = [];
@@ -115,11 +113,24 @@ function ExtractTeamIDAndNamesLink(teamAndDrivers: any[]) {
    return driverIdAndNameLink;
 }
 
-export async function ProcessSeasons(start: number, end: number) {
+export async function ProcessSeasons(
+   start: number,
+   end: number,
+   teamDriverTableHeader: string,
+   teamDriverHeaderQp: string,
+   entryList: string
+) {
    const teamsAndDrivers = [];
    for (let season = start; season <= end; season += 1) {
       // eslint-disable-next-line no-await-in-loop
-      teamsAndDrivers.push(ProcessSeason(season));
+      teamsAndDrivers.push(
+         ProcessSeason(
+            season,
+            teamDriverTableHeader,
+            teamDriverHeaderQp,
+            entryList
+         )
+      );
    }
    return (await Promise.all(teamsAndDrivers)).flat();
 }
@@ -186,9 +197,18 @@ function ExtractTeamMates(
 }
 export default async function ExtractDriverNamesMates(
    start: number,
-   end: number
+   end: number,
+   teamDriverTableHeader: string,
+   teamDriverHeaderQp: string,
+   entryList: string
 ) {
-   const rawData = await ProcessSeasons(start, end);
+   const rawData = await ProcessSeasons(
+      start,
+      end,
+      teamDriverTableHeader,
+      teamDriverHeaderQp,
+      entryList
+   );
    const teamDrivers = ExtractTeamsAndDriverNames(rawData);
    const driverIdAndNameLink = ExtractDriverIDAndNamesLink(rawData);
    const teamIdAndNameLink = ExtractTeamIDAndNamesLink(rawData);
