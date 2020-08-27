@@ -1,4 +1,6 @@
-# Extract DRIVER PAIRS
+# [Deprecated] Extract DRIVER PAIRS
+
+# [This Library has been moved to formula-one-six-degrees-metadata]
 
 ## Website [https://pratikpc.github.io/six-degree-f1/](https://pratikpc.github.io/six-degree-f1/)
 
