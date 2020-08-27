@@ -1,11 +1,10 @@
-# [Deprecated] Extract DRIVER PAIRS
-
-# [This Library has been moved to formula-one-six-degrees-metadata]
+# Formula One Six Degrees Metadata
 
 ## Website [https://pratikpc.github.io/six-degree-f1/](https://pratikpc.github.io/six-degree-f1/)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) 
 
-Extracts Driver Pairs, Generates them and Stores them for you to utilise [from this URL](https://fiaresultsandstatistics.motorsportstats.com/)
+Extracts Driver Pairs, Distances Between Drivers, Generates them and Stores them for you to utilise in your JS or TS App [from this URL](https://fiaresultsandstatistics.motorsportstats.com/)
 
 ```ts
 import {
