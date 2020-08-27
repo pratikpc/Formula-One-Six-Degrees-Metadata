@@ -1,6 +1,6 @@
 {
    "name": "formula-one-six-degrees-metadata",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "Extracts Driver Pairs, Distances Between Drivers, Generates them and Stores them for you to utilise in your JS or TS App from FIA's Website",
    "main": "./dist/index.js",
    "types": "./dist/index.d.ts",
